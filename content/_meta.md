@@ -1,8 +1,8 @@
 ---
 Logo: image/logo.png
-Tagline: ich nichten lichten
+Tagline: min portfolio till kursen "Teknisk webbdesign och användbarhet"
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/aimakll/design
+      url: https://github.com/aimakll/design-portfolio
       icon: github
 ---

@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
 
 body {
-    background-color: #f1f1f1;
+    background-color: #fdfdfd;
 }
+
 * {
     box-sizing: border-box;
     border: 0 none;
@@ -37,19 +38,10 @@ body {
     flex: 0 0 auto;
 }
 
-.container {
-    max-width: 80em;
-    min-height: 10em;
-    padding: 0.5em 0.5em;
-    margin: 0 auto;
-    border: 1px solid #444;
-    background-color: #f5f5f5;
-}
-
 /* Header */
 
 .header {
-    border-bottom: solid 1px #16161c;
+    background-color: #16161c;
 }
 
 .header, .site-header {
@@ -76,7 +68,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: #fdfdfd;
 }
 
 .title a {
@@ -86,24 +78,36 @@ body {
     font-style: italic;
 }
 
+/* MAIN */
+
+.content-main {
+    max-width: 85em;
+    min-height: 30vw;
+    padding: 0.5em 0.5em;
+    margin: 0 auto;
+    /*
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    */
+}
+
 /* Footer */
 
 .footer {
-    padding: 0.5em;
+    padding: 0.2em 0.7em;
     display: flex;
     justify-content: space-between;
-    /*border-top: 2px solid #8d8d8d;*/
     background-color: #16161c;
-    color:#f1f1f1;
+    color:#fdfdfd;
 }
 
-.footer a {
-    color: #f1f1f1;
+.footer a,
+.footer .social {
+    color: #fdfdfd;
 }
 
 .footer .social {
     font-size: 2rem;
-    color: #f1f1f1;
 }
 
 /* Typography */
@@ -111,7 +115,6 @@ body {
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     line-height: 1.5rem;
-    /*color: #444;*/
     color: #0b0b0b;
 }
 
@@ -125,10 +128,25 @@ p {
     margin: 0.5em 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0.6em;
+    line-height: 2.5rem;
     font-weight: bold;
     font-family: 'Bitter', Georgia, 'Times New Roman', Times, serif;
+}
+
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6 {
+margin-top: 0.5em;
 }
 
 h1 { font-size: 2rem; }
@@ -138,8 +156,8 @@ h4 { font-size: 1.1rem; }
 h5 { font-size: 1rem; }
 h6 { font-size: 1rem; font-weight: normal; font-style: italic; }
 
-img {
-    max-width: 100%;
+p.align-center {
+    text-align: center; 
 }
 
 /* Code */
@@ -147,7 +165,7 @@ img {
 code {
     margin: 0 0.1em;
     padding: 0.1em 0.2em;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     border-radius: 0.3em;
     background: #f5f5f5;
     font-family: monospace;
@@ -157,7 +175,7 @@ code {
 
 pre {
     padding: 0 1em;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     border-radius: 0.3em;
     background: #f5f5f5;
 }
@@ -176,7 +194,21 @@ pre code {
 
 blockquote {
     font-style: italic;
+    font-size: 1.5em;
     margin-left: 1em;
+    margin-bottom: 0.8em;
     padding-left: 1em;
-    border-left: 0.5em solid #f5f5f5;
+    border-left: 0.5em solid #b30c9c;
+}
+
+/* MEDIA */
+
+img {
+    max-width: 100%;
+    margin-top: 1em;
+}
+
+img.center { 
+    display: block;
+    margin: 0 auto;
 }
