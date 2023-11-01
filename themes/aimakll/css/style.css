@@ -23,7 +23,7 @@ html, body {
     height: 100%;
 }
 
-/* Placement */
+/* PLACEMENT */
 
 body {
     display: flex;
@@ -38,7 +38,7 @@ body {
     flex: 0 0 auto;
 }
 
-/* Header */
+/* HEADER */
 
 .header {
     background-color: #16161c;
@@ -49,7 +49,7 @@ body {
     justify-content: space-between;
 }
 
-/* Title */
+/* TITLE */
 
 .title, .logo {
     padding: 3em 3em 3em 0;
@@ -85,13 +85,9 @@ body {
     min-height: 30vw;
     padding: 0.5em 0.5em;
     margin: 0 auto;
-    /*
-    border-left: 1px solid #dddddd;
-    border-right: 1px solid #dddddd;
-    */
 }
 
-/* Footer */
+/* FOOTER */
 
 .footer {
     padding: 0.2em 0.7em;
@@ -110,7 +106,7 @@ body {
     font-size: 2rem;
 }
 
-/* Typography */
+/* TYPOGRAPHY */
 
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -160,7 +156,7 @@ p.align-center {
     text-align: center; 
 }
 
-/* Code */
+/* CODE */
 
 code {
     margin: 0 0.1em;
@@ -190,7 +186,7 @@ pre code {
     line-height: 1.4;
 }
 
-/* Blockquote */
+/* BLOCKQUOTE */
 
 blockquote {
     font-style: italic;
