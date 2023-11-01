@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: #f1f1f1;
+}
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+.container {
+    max-width: 80em;
+    min-height: 10em;
+    padding: 0.5em 0.5em;
+    margin: 0 auto;
+    border: 1px solid #444;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+
+.header {
+    border-bottom: solid 1px #16161c;
+}
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Title */
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: #111;
+}
+
+.title a {
+    text-decoration: none;
+}
+.title p {
+    font-style: italic;
+}
+
+/* Footer */
+
+.footer {
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    /*border-top: 2px solid #8d8d8d;*/
+    background-color: #16161c;
+    color:#f1f1f1;
+}
+
+.footer a {
+    color: #f1f1f1;
+}
+
+.footer .social {
+    font-size: 2rem;
+    color: #f1f1f1;
+}
+
+/* Typography */
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    /*color: #444;*/
+    color: #0b0b0b;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+    font-family: 'Bitter', Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.7rem; }
+h3 { font-size: 1.4rem; }
+h4 { font-size: 1.1rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 1rem; font-weight: normal; font-style: italic; }
+
+img {
+    max-width: 100%;
+}
+
+/* Code */
+
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #f5f5f5;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #f5f5f5;
+}
+
+pre code {
+    display: block;
+    margin: 0;
+    padding: 1.1111em 0;
+    border: 0 none;
+    background: transparent;
+    overflow-x: auto;
+    line-height: 1.4;
+}
+
+/* Blockquote */
+
+blockquote {
+    font-style: italic;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 0.5em solid #f5f5f5;
+}
