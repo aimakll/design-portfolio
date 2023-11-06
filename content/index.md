@@ -18,6 +18,11 @@ så har jag läst kurser i bland annat danska, pedagogik och data analytics (som
 - Tycker om att resa och att klura ut saker.
 - Förutom intresset för teknik så är jag även förtjust i pennor och diverse analogt pyssel.
 
+> A learning experience is one of those things that says, 'You know that thing you just did? Don't do that.'
+>
+> *Douglas Adams, The Salmon of Doubt*
+
 ![krstd](assets/img/botanischer_garten.jpg)
 
 *Botaniska trädgården i Berlin, eftersom sådant här är roligare att ta bilder på än mig själv*
+
