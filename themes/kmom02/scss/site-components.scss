@@ -1,0 +1,70 @@
+/* PLACEMENT */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    background-color: $background-color-dark;
+}
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* TITLE */
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+.title * {
+    color: $font-white;
+}
+
+.title a {
+    text-decoration: none;
+}
+.title p {
+    font-style: italic;
+}
+
+/* MAIN */
+
+.content-main {
+    max-width: 85em;
+    min-height: 30vw;
+    padding: 0.5em 0.5em;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+
+.footer {
+    padding: 0.2em 0.7em;
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-color-dark;
+    color: $font-white;
+}
+
+.footer a,
+.footer .social {
+    color: $font-white
+}
+
+.footer .social {
+    font-size: 2rem;
+}
