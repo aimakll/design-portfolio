@@ -32,28 +32,32 @@ h6 {
 .main h4,
 .main h5,
 .main h6 {
-margin-top: 0.5em;
+    margin-top: 0.5em;
 }
 
 h1 { 
     font-size: 2rem; 
 }
+
 h2 { 
     font-size: 1.7rem; }
 
 h3 { 
     font-size: 1.4rem; 
 }
+
 h4 { 
     font-size: 1.1rem; 
 }
+
 h5 { 
     font-size: 1rem; 
 }
+
 h6 { 
     font-size: 1rem; font-weight: normal; font-style: italic; 
 }
 
-p.align-center {
+p .align-center {
     text-align: center; 
 }
