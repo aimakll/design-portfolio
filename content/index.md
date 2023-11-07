@@ -20,10 +20,12 @@ så har jag läst kurser i bland annat danska, pedagogik och data analytics (som
 - Tycker om att resa och att klura ut saker.
 - Förutom intresset för teknik så är jag även förtjust i pennor och diverse analogt pyssel. 
 
+<div class="quote-container">
 <div class="quote">
 A learning experience is one of those things that says, 'You know that thing you just did? Don't do that.'
 </div>
-*- Douglas Adams, The Salmon of Doubt*
+<p class="author">Douglas Adams, The Salmon of Doubt</p>
+</div>
 
 ![krstd](assets/img/botanischer_garten.jpg)
 

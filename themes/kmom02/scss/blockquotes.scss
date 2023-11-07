@@ -7,10 +7,11 @@ blockquote {
     border-left: 0.5em solid $color-purple;
 }
 
+.quote-container {
+    margin: 1em 1.5em;
+}
 .quote {
     font-size: 1.2em;
-    margin-left: 1.5em;
-    margin: 1em 0.2em;
     line-height: 1.7em;
 }
 
@@ -28,4 +29,9 @@ blockquote {
     font-weight: 900;
     font-size: 1.6em;
     color: $color-purple;
+}
+
+.author {
+    font-size: 0.9em;
+    font-style: italic;
 }
