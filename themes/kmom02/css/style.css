@@ -6509,6 +6509,29 @@ blockquote {
   border-left: 0.5em solid #b30c9c;
 }
 
+.quote {
+  font-size: 1.2em;
+  margin-left: 1.5em;
+  margin: 1em 0.2em;
+  line-height: 1.7em;
+}
+
+.quote::before {
+  content: "\f10d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.6em;
+  color: #b30c9c;
+}
+
+.quote::after {
+  content: "\f10e";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.6em;
+  color: #b30c9c;
+}
+
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
