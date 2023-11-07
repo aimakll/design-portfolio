@@ -13,14 +13,17 @@ Bor just nu i Paris, på g att flytta till Berlin. Ursprungligen från Kristians
 Har en gammal kandidatexamen i Digital Design i bagaget. Eftersom jag aldrig riktigt klurat ut vad jag vill bli när jag blir stor och dessutom tycker om att prova på saker, 
 så har jag läst kurser i bland annat danska, pedagogik och data analytics (som innehöll grunderna i R och SQL).
 
+## Intressen
+
 - Dricker en hel del kaffe och lyssnar på en himla massa musik.
 - Har en svaghet för lökiga 80-talsfilmer.
 - Tycker om att resa och att klura ut saker.
-- Förutom intresset för teknik så är jag även förtjust i pennor och diverse analogt pyssel.
+- Förutom intresset för teknik så är jag även förtjust i pennor och diverse analogt pyssel. 
 
-> A learning experience is one of those things that says, 'You know that thing you just did? Don't do that.'
->
-> *Douglas Adams, The Salmon of Doubt*
+<div class="quote">
+A learning experience is one of those things that says, 'You know that thing you just did? Don't do that.'
+</div>
+*- Douglas Adams, The Salmon of Doubt*
 
 ![krstd](assets/img/botanischer_garten.jpg)
 
