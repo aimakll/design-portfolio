@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: $font-main;
     line-height: 1.5rem;
     color: $font-black;
 }
@@ -23,7 +23,7 @@ h6 {
     margin-bottom: 0.6em;
     line-height: 2.5rem;
     font-weight: bold;
-    font-family: 'Bitter', Georgia, 'Times New Roman', Times, serif;
+    font-family: $font-headers;
 }
 
 .main h1,
@@ -55,7 +55,9 @@ h5 {
 }
 
 h6 { 
-    font-size: 1rem; font-weight: normal; font-style: italic; 
+    font-size: 1rem; 
+    font-weight: normal; 
+    font-style: italic; 
 }
 
 p .align-center {
