@@ -1,6 +1,6 @@
 ---
-Title: Home
-Description: This is the start page.
+Title: Start
+Description: Detta är startsidan.
 ---
 
 Om mig

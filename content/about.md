@@ -1,6 +1,6 @@
 ---
-Title: About
-Description: This is the page about the page
+Title: Om
+Description: Det här är sidan om sidan och dess tekniker.
 ---
 
 Om sidan
