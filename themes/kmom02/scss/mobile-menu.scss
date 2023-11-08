@@ -21,50 +21,17 @@
         padding: 0.5em;
     }
     
-    a, .nav-toggle {
-        color: $font-white;
-        text-decoration: none;
-    }
-    
     a:hover {
         background-color: $background-color-light;
         color: $font-black;
     }
 }
 
-.nav-toggle {
-    display: none;
+.nav a, .nav-toggle {
+    color: $font-white;
+    text-decoration: none;
 }
 
-@media (max-width: 767px) {
-    .header {
-        flex-direction: column;
-    }
-
-    .nav ul {
-        flex-direction: column;
-        padding-bottom: 1em;
-    }
-
-    .nav ul li {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .nav ul li a {
-        display: block;
-        padding: 0.5em 0;
-    }
-
-    .js .nav-toggle {
-        display: block;
-        float: right;
-        width: 2em;
-        margin: 0.6667em 0;
-        font-size: 1.5rem;
-        line-height: 2em;
-        text-align: center;
-        cursor: pointer;
-    }
+.nav-toggle {
+    display: none;
 }
