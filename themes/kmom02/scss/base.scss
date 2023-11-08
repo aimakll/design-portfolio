@@ -1,0 +1,33 @@
+
+body {
+    background-color: $background-color-light;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 1em;
+}
+
+img .center { 
+    display: block;
+    margin: 0 auto;
+}
