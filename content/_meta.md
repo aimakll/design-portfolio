@@ -5,7 +5,7 @@ Social:
     - title: Länk till sidans github repo.
       url: https://github.com/aimakll/design-portfolio
       icon: fab fa-github   
-    - title: Jag använder inte sociala medier
-      url: https://#
-      icon: fas fa-poo
+    - title: Länk till min Discord-profil
+      url: discordapp.com/users/UserID/422438668461146112
+      icon: fab fa-discord
 ---
