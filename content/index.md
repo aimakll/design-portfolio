@@ -21,9 +21,9 @@ så har jag läst kurser i bland annat danska, pedagogik och data analytics (som
 - Förutom intresset för teknik så är jag även förtjust i pennor och diverse analogt pyssel. 
 
 <div class="quote-container">
-<div class="quote">
-A learning experience is one of those things that says, 'You know that thing you just did? Don't do that.'
-</div>
+    <div class="quote">
+    A learning experience is one of those things that says, 'You know that thing you just did? Don't do that.'
+    </div>
 <p class="author">Douglas Adams, The Salmon of Doubt</p>
 </div>
 
