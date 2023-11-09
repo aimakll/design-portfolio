@@ -6509,7 +6509,7 @@ p {
 }
 
 .main p {
-  width: 64rem;
+  max-width: 64rem;
 }
 
 h1,
