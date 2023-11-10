@@ -18,52 +18,50 @@ p {
     max-width: 64rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-bottom: 0.6em;
-    line-height: 2.5rem;
-    font-weight: bold;
-    font-family: $font-headers;
-}
-
-.main h1,
-.main h2,
-.main h3,
-.main h4,
-.main h5,
-.main h6 {
-    margin-top: 0.5em;
-}
-
-h1 { 
-    font-size: 2rem; 
-}
-
-h2 { 
-    font-size: 1.7rem; }
-
-h3 { 
-    font-size: 1.4rem; 
-}
-
-h4 { 
-    font-size: 1.1rem; 
-}
-
-h5 { 
-    font-size: 1rem; 
-}
-
-h6 { 
-    font-size: 1rem; 
-    font-weight: normal; 
-    font-style: italic; 
-}
-
 p .align-center {
     text-align: center; 
+}
+
+@mixin header-styles($font-size, $margin-bottom, $margin-top: null, $font-weight: bold, $font-style: normal) {
+    margin-bottom: $margin-bottom;
+    line-height: 2.5rem;
+    font-weight: $font-weight;
+    font-family: $font-headers;
+    font-size: $font-size;
+  
+    @if $margin-top {
+        margin-top: $margin-top;
+    }
+  
+    @if $font-style {
+        font-style: $font-style;
+    }
+}
+
+.main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
+    @include header-styles(null, null, 0.5em);
+}
+
+h1 {
+    @include header-styles(2rem, 0.6em);
+}
+
+h2 {
+    @include header-styles(1.7rem, null, null, null, null);
+}
+
+h3 {
+    @include header-styles(1.4rem, null, null, null, null);
+}
+
+h4 {
+    @include header-styles(1.1rem, null, null, null, null);
+}
+
+h5, h6 {
+    @include header-styles(1rem, null, null, null, null);
+}
+
+h6 {
+    @include header-styles(1rem, null, null, normal, italic);
 }

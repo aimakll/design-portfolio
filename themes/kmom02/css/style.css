@@ -6512,55 +6512,57 @@ p {
   max-width: 64rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+p .align-center {
+  text-align: center;
+}
+
+.main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
+  line-height: 2.5rem;
+  font-weight: bold;
+  font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
+  margin-top: 0.5em;
+  font-style: normal;
+}
+
+h1 {
   margin-bottom: 0.6em;
   line-height: 2.5rem;
   font-weight: bold;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
-}
-
-.main h1,
-.main h2,
-.main h3,
-.main h4,
-.main h5,
-.main h6 {
-  margin-top: 0.5em;
-}
-
-h1 {
   font-size: 2rem;
+  font-style: normal;
 }
 
 h2 {
+  line-height: 2.5rem;
+  font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1.7rem;
 }
 
 h3 {
+  line-height: 2.5rem;
+  font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1.4rem;
 }
 
 h4 {
+  line-height: 2.5rem;
+  font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1.1rem;
 }
 
-h5 {
+h5, h6 {
+  line-height: 2.5rem;
+  font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
 }
 
 h6 {
-  font-size: 1rem;
+  line-height: 2.5rem;
   font-weight: normal;
+  font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
   font-style: italic;
-}
-
-p .align-center {
-  text-align: center;
 }
 
 body {
