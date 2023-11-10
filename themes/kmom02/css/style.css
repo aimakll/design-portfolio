@@ -6605,7 +6605,7 @@ blockquote {
   margin-left: 1em;
   margin-bottom: 0.8em;
   padding-left: 1em;
-  border-left: 0.5em solid #b30c9c;
+  border-left: 0.5em solid #9A0680;
 }
 
 .quote {
@@ -6621,7 +6621,7 @@ blockquote {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 3em;
-  color: #b30c9c;
+  color: #9A0680;
   position: absolute;
   left: 0.09em;
   top: 0.05em;
