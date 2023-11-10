@@ -6,6 +6,6 @@ Social:
       url: https://github.com/aimakll/design-portfolio
       icon: fab fa-github   
     - title: Länk till min Discord-profil
-      url: discordapp.com/users/UserID/422438668461146112
+      url: http://discordapp.com/users/UserID/422438668461146112
       icon: fab fa-discord
 ---
