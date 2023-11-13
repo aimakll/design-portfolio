@@ -5,11 +5,11 @@ Template: technologies
 ---
 
 
-Teknologier
+<span class="title">Teknologier</span>
 ==========================
 
 <div class="box html">
-HTML
+<a href="technology/html">HTML</a>
 </div>
 
 <div class="box css">
