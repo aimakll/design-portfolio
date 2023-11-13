@@ -42,11 +42,32 @@
         cursor: pointer;
     }
 
-    .container {
-        grid-template-columns: repeat(3, 1fr);
+    .three-col-container {
+        grid-template-rows: repeat(10, 1fr); 
+        .html,
+        .css,
+        .php,
+        .git,
+        .extra,
+        .sql,
+        .js,
+        .py {
+          grid-row: span 1;
+          grid-column: span 3;
+        }
+      }
+
+
+    .two-col .sidebar {
+        display: none;
     }
-    
-    .box {
-        grid-column: span 3;
+
+    .two-col .content {
+        grid-column: span 2;
+    }
+
+    .two-col-container {
+        grid-template-columns: 1fr; /* Single column layout */
+        grid-template-rows: repeat(10, 1fr); 
     }
 }

@@ -6458,11 +6458,29 @@ template {
     text-align: center;
     cursor: pointer;
   }
-  .container {
-    grid-template-columns: repeat(3, 1fr);
+  .three-col-container {
+    grid-template-rows: repeat(10, 1fr);
   }
-  .box {
+  .three-col-container .html,
+  .three-col-container .css,
+  .three-col-container .php,
+  .three-col-container .git,
+  .three-col-container .extra,
+  .three-col-container .sql,
+  .three-col-container .js,
+  .three-col-container .py {
+    grid-row: span 1;
     grid-column: span 3;
+  }
+  .two-col .sidebar {
+    display: none;
+  }
+  .two-col .content {
+    grid-column: span 2;
+  }
+  .two-col-container {
+    grid-template-columns: 1fr; /* Single column layout */
+    grid-template-rows: repeat(10, 1fr);
   }
 }
 .slide {
@@ -6742,24 +6760,28 @@ body {
   gap: 1em 1em;
 }
 
-.container {
+.wrapper {
   max-width: 85em;
   margin: 0 auto;
+}
+
+.three-col-container {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
 }
 
-.box {
-  background-color: #ccc;
-  padding: 1em;
-  border-radius: 0.3em;
-  text-align: center;
-}
-
-.container h1 {
+.three-col-container h1 {
   grid-row: 1/span 1;
   grid-column: 1/span 3;
   justify-self: center;
+}
+
+.box {
+  grid-column: 1/span 3;
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 0.3em;
+  text-align: center;
 }
 
 .html {
@@ -6782,7 +6804,7 @@ body {
   grid-column: 2/span 1;
 }
 
-.image {
+.extra {
   grid-row: 3/span 1;
   grid-column: 3/span 1;
 }
@@ -6800,4 +6822,21 @@ body {
 .py {
   grid-row: 5/span 1;
   grid-column: 2/span 2;
+}
+
+/* two columns layout */
+.two-col-container {
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+}
+
+.two-col-sidebar {
+  grid-row: 2/2;
+  grid-column: 1/2;
+}
+
+.two-col-content {
+  grid-row: 2/2;
+  grid-column: 2/2;
+  border: 1px solid #ccc;
 }
