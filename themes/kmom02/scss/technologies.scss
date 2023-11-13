@@ -3,7 +3,7 @@
     gap: 1em 1em;
 }
 
-.tech-main {
+.container {
     max-width: 85em;
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
@@ -17,7 +17,7 @@
     text-align: center;
 }
 
-.tech-main h1 {
+.container h1 {
     grid-row: 1 / span 1;
     grid-column: 1 / span 3;
     justify-self: center;
