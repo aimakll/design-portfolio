@@ -4,8 +4,18 @@ Description: about HTML
 Template: technologies
 ---
 
+
 HTML
 ==========================
+
+<div class="two-col-sidebar">
+    - link
+    - link
+    - link
+</div>
+
+
+<div class="two-col-content">
 
 HyperText Markup Language (HTML) utgör tillsammans med HyperText Transfer Protocol (HTTP) grunden i webben. Webbsidor skrivs i HTML och skickas sedan över internet med hjälp av HTTP.
 
@@ -14,5 +24,7 @@ HTML beskriver innehåll och struktur för våra webbplatser och gör det möjli
 HTML använder sig av element beskrivna av taggar. Nedan är ett exempel på ett textstycke med en länk i:
 
 ```html
-<p>En länk till min <a href="minwebbplats.html">webbplats</a></p>
+En länk till min webbplats
 ```
+
+</div>
