@@ -6840,3 +6840,8 @@ body {
   grid-column: 2/2;
   border: 1px solid #ccc;
 }
+
+.two-col-container a,
+.three-col-container a {
+  text-decoration: none;
+}
