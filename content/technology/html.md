@@ -9,9 +9,15 @@ HTML
 ==========================
 
 <div class="two-col-sidebar">
-    - link
-    - link
-    - link
+    <ul>
+    <li><a href="html">HTML</a></li>
+    <li><a href="css">CSS</a></li>
+    <li><a href="php">PHP</a></li>
+    <li><a href="git">Git</a></li>
+    <li><a href="sqlite">SQLite</a></li>
+    <li><a href="javascript">JavaScript</a></li>
+    <li><a href="python">Python</a></li>
+    </ul>
 </div>
 
 

@@ -1,5 +1,5 @@
 ---
-Title: Technologies
+Title: Teknologier
 Description: This is the page about the technologies used. 
 Template: technologies
 ---
@@ -13,16 +13,16 @@ Template: technologies
 </div>
 
 <div class="box css">
-CSS
+<a href="technology/css">CSS</a>
 </div>
 
 <!-- ROW 3-->
 <div class="box php">
-PHP
+<a href="technology/php">PHP</a>
 </div>
 
 <div class="box git">
-GIT
+<a href="technology/git">Git</a>
 </div>
 
 <div class="box extra">
@@ -32,15 +32,15 @@ extra
 <!-- ROW 4 -->
 
 <div class="box sql">
-SQLITE
+<a href="technology/sqlite">SQLite</a>
 </div>
 
 <!-- ROW 5 -->	
 
 <div class="box js">
-JAVASCRIPT
+<a href="technology/javascript">JavaScript</a>
 </div>
 
 <div class="box py">
-PYTHON
+<a href="technology/python">Python</a>
 </div>
