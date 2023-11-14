@@ -4,13 +4,13 @@
     {% include 'incl/nav.twig' %}
     
     <div id="main" class="main" role="main">
-    {% if page.title != "Technologies" %}
-        <div class="wrapper grid two-col-container">
-     {% endif %}
 
-    {% if page.title == "Technologies" %} 
+    {% if meta.title == "Teknologier" %}
         <div class="wrapper grid three-col-container">
+    {% else %}
+        <div class="wrapper grid two-col-container">
     {% endif %}
+
             {{ content }}
         </div>
     </div>
