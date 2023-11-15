@@ -47,7 +47,7 @@ h1 {
 }
 
 h2 {
-    @include header-styles(1.7rem, null, null, null, null);
+    @include header-styles(1.7rem, 0.6em, null, null, null);
 }
 
 h3 {

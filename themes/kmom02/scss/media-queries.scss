@@ -58,16 +58,11 @@
         }
     }
 
-    .two-col .sidebar {
+    .two-col-sidebar {
         display: none;
     }
 
-    .two-col .content {
-        grid-column: span 2;
-    }
-
     .two-col-container {
-        grid-template-columns: 1fr; /* Single column layout */
-        grid-template-rows: repeat(10, 1fr); 
+        flex-direction: column;
     }
 }
