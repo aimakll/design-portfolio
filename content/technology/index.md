@@ -30,7 +30,8 @@ Teknologier
 </div>
 
 <div class="box extra">
-<i class="fas fa-laptop"></i>
+<i class="fas fa-coffee"></i>
+:)
 </div>
 
 <!-- ROW 4 -->
