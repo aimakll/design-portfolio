@@ -43,7 +43,8 @@
     }
 
     .three-col-container {
-        grid-template-rows: repeat(10, 1fr); 
+        grid-template-rows: repeat(10, 1fr);
+
         .html,
         .css,
         .php,
@@ -52,11 +53,10 @@
         .sql,
         .js,
         .py {
-          grid-row: span 1;
-          grid-column: span 3;
+            grid-row: span 1;
+            grid-column: span 3;
         }
-      }
-
+    }
 
     .two-col .sidebar {
         display: none;
