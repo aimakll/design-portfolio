@@ -11,60 +11,57 @@
 .three-col-container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+        "title title title"
+        "html html css"
+        "php git extra"
+        "sql sql sql"
+        "js py py";
 }
 
 .three-col-container h1 {
-    grid-row: 1 / span 1;
-    grid-column: 1 / span 3;
+    grid-area: title;
     justify-self: center;
 }
 
 .box {
-    grid-column: 1 / span 3;
+    grid-column: span 3;
     border: 1px solid $color-gray-light;
     padding: 1em;
     border-radius: 0.3em;
     text-align: center;
 }
-  
+
 .html {
-    grid-row: 2 / span 1;
-    grid-column: 1 / span 2;
+    grid-area: html;
 }
-  
+
 .css {
-    grid-row: 2 / span 1;
-    grid-column: 3 / span 1;
+    grid-area: css;
 }
-  
+
 .php {
-    grid-row: 3 / span 1;
-    grid-column: 1 / span 1;
+    grid-area: php;
 }
-  
+
 .git {
-    grid-row: 3 / span 1;
-    grid-column: 2 / span 1;
+    grid-area: git;
 }
-  
+
 .extra {
-    grid-row: 3 / span 1;
-    grid-column: 3 / span 1;
+    grid-area: extra;
 }
-  
+
 .sql {
-    grid-row: 4 / span 1;
-    grid-column: 1 / span 3;
+    grid-area: sql;
 }
-  
+
 .js {
-    grid-row: 5 / span 1;
-    grid-column: 1 / span 1;
+    grid-area: js;
 }
-  
+
 .py {
-    grid-row: 5 / span 1;
-    grid-column: 2 / span 2;
+    grid-area: py;
 }
 
 .box > .fab,
