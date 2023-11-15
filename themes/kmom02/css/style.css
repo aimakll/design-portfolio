@@ -6847,13 +6847,12 @@ body {
   list-style-type: none;
 }
 
-.two-col-sidebar ul li:before {
+.two-col-sidebar ul li::before {
   content: "⁃";
   position: absolute;
   margin-left: -1em;
 }
 
-/* */
 .two-col-container a,
 .two-col-sidebar a,
 .three-col-container a {
@@ -6865,4 +6864,5 @@ body {
 .two-col-sidebar a:hover,
 .three-col-container a:hover {
   text-decoration: underline;
+  color: #9A0680;
 }

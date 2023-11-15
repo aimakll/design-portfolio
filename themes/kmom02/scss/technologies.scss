@@ -12,11 +12,11 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas:
-        "title title title"
-        "html html css"
-        "php git extra"
-        "sql sql sql"
-        "js py py";
+    "title title title"
+    "html html css"
+    "php git extra"
+    "sql sql sql"
+    "js py py";
 }
 
 .three-col-container h1 {
@@ -70,6 +70,7 @@
     font-size: 1.5em;
 }
 
+
 /* two columns layout */
 
 .two-col-container {
@@ -91,13 +92,12 @@
     list-style-type: none;
 }
 
-.two-col-sidebar ul li:before {
+.two-col-sidebar ul li::before {
     content: '\2043';
     position: absolute;
     margin-left: -1em;
 }
 
-/* */
 .two-col-container a,
 .two-col-sidebar a,
 .three-col-container a {
@@ -109,4 +109,5 @@
 .two-col-sidebar a:hover,
 .three-col-container a:hover {
     text-decoration: underline;
+    color: $color-purple;
 }
