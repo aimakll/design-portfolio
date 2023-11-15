@@ -30,9 +30,9 @@ Teknologier
 </div>
 
 <div class="box extra">
-extra
+<i class="fas fa-laptop"></i>
 </div>
-	
+
 <!-- ROW 4 -->
 
 <div class="box sql">
