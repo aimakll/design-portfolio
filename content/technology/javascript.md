@@ -4,10 +4,8 @@ Description: about JavaScript
 Template: technology
 ---
 
-JavaScript
-==========================
-
 <div class="two-col-sidebar">
+<h2>Teknologier</h2>
     <ul>
     <li><a href="html">HTML</a></li>
     <li><a href="css">CSS</a></li>
@@ -22,6 +20,8 @@ JavaScript
 <div class="two-col-content">
 
 <div markdown="1">
+
+# JavaScript
 
 JavaScript är ett prototyp-baserat skriptspråk. JavaScript utgör tillsammans med HTML och CSS grunden för webben. JavaScript är dynamiskt, svagt typat och hanterar funktioner som första-klass-objekt.
 

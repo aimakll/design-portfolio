@@ -4,11 +4,8 @@ Description: about HTML
 Template: technology
 ---
 
-
-HTML
-==========================
-
 <div class="two-col-sidebar">
+<h2>Teknologier</h2>
     <ul>
     <li><a href="html">HTML</a></li>
     <li><a href="css">CSS</a></li>
@@ -24,6 +21,7 @@ HTML
 <div class="two-col-content">
 
 <div markdown="1">
+# HTML
 
 HyperText Markup Language (HTML) utgör tillsammans med HyperText Transfer Protocol (HTTP) grunden i webben. Webbsidor skrivs i HTML och skickas sedan över internet med hjälp av HTTP.
 

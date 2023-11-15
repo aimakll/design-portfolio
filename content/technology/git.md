@@ -4,10 +4,8 @@ Description: about Git
 Template: technology
 ---
 
-Git
-==========================
-
 <div class="two-col-sidebar">
+<h2>Teknologier</h2>
     <ul>
     <li><a href="html">HTML</a></li>
     <li><a href="css">CSS</a></li>
@@ -22,6 +20,8 @@ Git
 <div class="two-col-content">
 
 <div markdown="1">
+
+# Git
 
 Git är ett distribuerat versionshanteringssystem som skapades 2005 av Linus Torvalds. Git skapades för att hantera ändringar för Linux-kärnan.
 

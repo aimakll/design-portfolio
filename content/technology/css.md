@@ -4,10 +4,8 @@ Description: about CSS
 Template: technology
 ---
 
-CSS
-==========================
-
 <div class="two-col-sidebar">
+<h2>Teknologier</h2>
     <ul>
     <li><a href="html">HTML</a></li>
     <li><a href="css">CSS</a></li>
@@ -22,6 +20,9 @@ CSS
 <div class="two-col-content">
 
 <div markdown="1">
+
+# CSS 
+
 Cascading Style Sheets är språk för att beskriva utseende av element i ett markup language till exempel HTML. CSS är en av tre teknologier som utgör fundamentet för webben.
 
 I CSS använder vi selektorer för att beskriva vilka element vi vill påverka och deklarerar sedan stilen för elementen i ett block.

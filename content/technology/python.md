@@ -4,10 +4,8 @@ Description: about Python
 Template: technology
 ---
 
-Python
-==========================
-
 <div class="two-col-sidebar">
+<h2>Teknologier</h2>
     <ul>
     <li><a href="html">HTML</a></li>
     <li><a href="css">CSS</a></li>
@@ -22,6 +20,8 @@ Python
 <div class="two-col-content">
 
 <div markdown="1">
+
+# Python
 
 Python är ett programmeringsspråk som lanserades 1991 av Guido van Rossum. Programmeringsspråket är dynamiskt typad och betecknas som ett generellt programmeringsspråk då det kan tillämpas inom många domäner.
 

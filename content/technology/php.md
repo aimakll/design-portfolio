@@ -4,10 +4,8 @@ Description: about PHP
 Template: technology
 ---
 
-PHP
-==========================
-
 <div class="two-col-sidebar">
+<h2>Teknologier</h2>
     <ul>
     <li><a href="html">HTML</a></li>
     <li><a href="css">CSS</a></li>
@@ -22,6 +20,8 @@ PHP
 <div class="two-col-content">
 
 <div markdown="1">
+
+# PHP
 
 PHP är ett populärt skriptspråk som främst används för att skapa webbplatser med dynamiskt innehåll. PHP är det mest använda server-side programmeringsspråk på webben med uppåt 80% av alla webbplatser som använder det.
 

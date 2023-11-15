@@ -5,7 +5,7 @@ Template: technologies
 ---
 
 
-<span class="title">Teknologier</span>
+Teknologier
 ==========================
 
 <div class="box html">
