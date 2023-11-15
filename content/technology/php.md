@@ -1,7 +1,7 @@
 ---
 Title: PHP
 Description: about PHP
-Template: technologies
+Template: technology
 ---
 
 PHP
@@ -21,6 +21,8 @@ PHP
 
 <div class="two-col-content">
 
+<div markdown="1">
+
 PHP är ett populärt skriptspråk som främst används för att skapa webbplatser med dynamiskt innehåll. PHP är det mest använda server-side programmeringsspråk på webben med uppåt 80% av alla webbplatser som använder det.
 
 PHP är ett objekt-orienterad programmeringsspråk, som med senare versioner kan vara hård typat och till och med JIT.
@@ -35,5 +37,5 @@ for ($i = 1; $i <= 100; $i++) {
     }
 }
 ```
-
+</div>
 </div>

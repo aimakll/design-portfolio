@@ -1,7 +1,7 @@
 ---
 Title: CSS
 Description: about CSS
-Template: technologies
+Template: technology
 ---
 
 CSS
@@ -20,6 +20,8 @@ CSS
 </div>
 
 <div class="two-col-content">
+
+<div markdown="1">
 Cascading Style Sheets är språk för att beskriva utseende av element i ett markup language till exempel HTML. CSS är en av tre teknologier som utgör fundamentet för webben.
 
 I CSS använder vi selektorer för att beskriva vilka element vi vill påverka och deklarerar sedan stilen för elementen i ett block.
@@ -32,4 +34,5 @@ p {
 }
 ```
 
+</div>
 </div>
