@@ -67,6 +67,12 @@
     grid-column: 2 / span 2;
 }
 
+.box > .fab,
+.box > .fas {
+    display: block;
+    font-size: 1.5em;
+}
+
 /* two columns layout */
 
 .two-col-container {
@@ -82,17 +88,17 @@
 .two-col-content {
     grid-row: 2 / 2;
     grid-column: 2 / 2;
-    border: 1px solid $color-gray-light;
 }
 
 .two-col-container a,
+.two-col-sidebar a,
 .three-col-container a {
     text-decoration: none;
     font-weight: bold;
 }
 
-.box > .fab,
-.box > .fas {
-    display: block;
-    font-size: 1.5em;
+.two-col-container a:hover,
+.two-col-sidebar a:hover,
+.three-col-container a:hover {
+    text-decoration: underline;
 }

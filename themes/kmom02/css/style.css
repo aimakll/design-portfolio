@@ -6502,6 +6502,9 @@ template {
 .nav a {
   padding: 0.5em;
 }
+.nav a:visited {
+  color: #fdfdfd;
+}
 .nav a:hover {
   background-color: #fdfdfd;
   color: #0b0b0b;
@@ -6620,6 +6623,10 @@ img {
 img .center {
   display: block;
   margin: 0 auto;
+}
+
+a:visited {
+  color: #0b0b0b;
 }
 
 blockquote {
@@ -6824,6 +6831,12 @@ body {
   grid-column: 2/span 2;
 }
 
+.box > .fab,
+.box > .fas {
+  display: block;
+  font-size: 1.5em;
+}
+
 /* two columns layout */
 .two-col-container {
   grid-template-columns: 1fr 2fr;
@@ -6838,17 +6851,17 @@ body {
 .two-col-content {
   grid-row: 2/2;
   grid-column: 2/2;
-  border: 1px solid #ccc;
 }
 
 .two-col-container a,
+.two-col-sidebar a,
 .three-col-container a {
   text-decoration: none;
   font-weight: bold;
 }
 
-.box > .fab,
-.box > .fas {
-  display: block;
-  font-size: 1.5em;
+.two-col-container a:hover,
+.two-col-sidebar a:hover,
+.three-col-container a:hover {
+  text-decoration: underline;
 }
