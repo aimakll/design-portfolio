@@ -24,6 +24,21 @@
     justify-self: center;
 }
 
+.two-col-container {
+    display: flex;
+}
+
+.two-col-sidebar {
+    flex: 1; 
+    padding: 1em;
+    border-right: 1px solid $color-gray-light;
+}
+
+.two-col-content {
+    flex: 2;
+    padding: 1em;
+}
+
 .box {
     grid-column: span 3;
     border: 1px solid $color-gray-light;
@@ -70,24 +85,6 @@
     font-size: 1.5em;
 }
 
-
-/* two columns layout */
-
-.two-col-container {
-    display: flex;
-}
-
-.two-col-sidebar {
-    flex: 1; 
-    padding: 1em;
-    border-right: 1px solid $color-gray-light;
-}
-
-.two-col-content {
-    flex: 2;
-    padding: 1em;
-}
-
 .two-col-sidebar ul {
     list-style-type: none;
 }
@@ -101,13 +98,20 @@
 .two-col-container a,
 .two-col-sidebar a,
 .three-col-container a {
+    color: $font-black;
     text-decoration: none;
     font-weight: bold;
+}
+
+.two-col-container a:visited,
+.two-col-sidebar a:visited,
+.three-col-container a:visited {
+    color: $font-black;
 }
 
 .two-col-container a:hover,
 .two-col-sidebar a:hover,
 .three-col-container a:hover {
-    text-decoration: underline;
     color: $color-purple;
+    text-decoration: underline;
 }
