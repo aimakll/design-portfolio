@@ -19,11 +19,6 @@
     "js py py";
 }
 
-.three-col-container h1 {
-    grid-area: title;
-    justify-self: center;
-}
-
 .two-col-container {
     display: flex;
 }
@@ -45,6 +40,12 @@
     padding: 1em;
     border-radius: 0.3em;
     text-align: center;
+}
+
+.tech-title {
+    grid-area: title;
+    color: $font-black;
+    border: 0;
 }
 
 .html {

@@ -4,9 +4,9 @@ Description: This is the page about the technologies used.
 Template: technologies
 ---
 
-
-Teknologier
-==========================
+<div class="box tech-title">
+<h1>Teknologier</h1>
+</div>
 
 <div class="box html">
 
