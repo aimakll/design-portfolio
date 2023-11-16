@@ -6804,10 +6804,6 @@ body {
   text-align: center;
 }
 
-.box:hover {
-  color: #9A0680;
-}
-
 .html {
   grid-area: html;
 }
