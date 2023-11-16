@@ -1,6 +1,6 @@
 ---
 Title: Teknologier
-Description: This is the page about the technologies used. 
+Description: This is the page about the technologies used.
 Template: technologies
 ---
 
@@ -18,7 +18,6 @@ Teknologier
 <a href="technology/css">CSS</a>
 </div>
 
-<!-- ROW 3-->
 <div class="box php">
 <i class="fab fa-php"></i>
 <a href="technology/php">PHP</a>
@@ -29,19 +28,10 @@ Teknologier
 <a href="technology/git">Git</a>
 </div>
 
-<div class="box extra">
-<i class="fas fa-coffee"></i>
-:)
-</div>
-
-<!-- ROW 4 -->
-
 <div class="box sql">
 <i class="fas fa-database"></i>
 <a href="technology/sqlite">SQLite</a>
 </div>
-
-<!-- ROW 5 -->	
 
 <div class="box js">
 <i class="fab fa-js-square"></i>

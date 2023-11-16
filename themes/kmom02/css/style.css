@@ -6773,7 +6773,7 @@ body {
 .three-col-container {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-template-areas: "title title title" "html html css" "php git extra" "sql sql sql" "js py py";
+  grid-template-areas: "title title title" "html html css" "php git git" "sql sql sql" "js py py";
 }
 
 .three-col-container h1 {
@@ -6820,10 +6820,11 @@ body {
   grid-area: git;
 }
 
+/*
 .extra {
-  grid-area: extra;
+    grid-area: extra;
 }
-
+*/
 .sql {
   grid-area: sql;
 }

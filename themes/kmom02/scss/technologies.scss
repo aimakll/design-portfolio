@@ -14,7 +14,7 @@
     grid-template-areas:
     "title title title"
     "html html css"
-    "php git extra"
+    "php git git"
     "sql sql sql"
     "js py py";
 }
@@ -61,10 +61,6 @@
 
 .git {
     grid-area: git;
-}
-
-.extra {
-    grid-area: extra;
 }
 
 .sql {
