@@ -75,10 +75,10 @@
     grid-area: py;
 }
 
-.box > .fab,
-.box > .fas {
-    display: block;
+.box > a .fab,
+.box > a .fas {
     font-size: 1.5em;
+    padding-right: 0.3em;
 }
 
 .two-col-sidebar ul {

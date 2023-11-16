@@ -6804,6 +6804,10 @@ body {
   text-align: center;
 }
 
+.box:hover {
+  color: #9A0680;
+}
+
 .html {
   grid-area: html;
 }
@@ -6820,11 +6824,6 @@ body {
   grid-area: git;
 }
 
-/*
-.extra {
-    grid-area: extra;
-}
-*/
 .sql {
   grid-area: sql;
 }
@@ -6837,10 +6836,10 @@ body {
   grid-area: py;
 }
 
-.box > .fab,
-.box > .fas {
-  display: block;
+.box > a .fab,
+.box > a .fas {
   font-size: 1.5em;
+  padding-right: 0.3em;
 }
 
 .two-col-sidebar ul {
