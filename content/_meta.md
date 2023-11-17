@@ -8,4 +8,10 @@ Social:
     - title: Länk till min Discord-profil
       url: http://discordapp.com/users/UserID/422438668461146112
       icon: fab fa-discord
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
