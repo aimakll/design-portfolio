@@ -10,13 +10,13 @@ Template: technologies
 
 <div class="box html">
 
-<a href="technology/html" aria-label="kmom04">kmom04</a>
+<a href="analysis/01_colors" aria-label="kmom04 - colours">kmom04</a>
 </div>
 
 <div class="box css">
-<a href="technology/css" aria-label="kmom05">kmom05</a>
+<a href="analysis/02_load" aria-label="kmom05 - load">kmom05</a>
 </div>
 
 <div class="box php">
-<a href="technology/php" aria-label="kmom06">kmom06</a>
+<a href="analysis/03_design_principles" aria-label="kmom06 - design principles">kmom06</a>
 </div>
