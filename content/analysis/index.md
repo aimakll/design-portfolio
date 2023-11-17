@@ -10,7 +10,7 @@ Template: technologies
 
 <div class="box html">
 
-<a href="analysis/01_colors" aria-label="kmom04 - colours">kmom04</a>
+<a href="analysis/01_colours" aria-label="kmom04 - colours">kmom04</a>
 </div>
 
 <div class="box css">
