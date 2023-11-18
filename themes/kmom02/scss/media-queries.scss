@@ -1,14 +1,13 @@
-@media (max-width: 767px) {
-    .title, .logo {
-        padding: 1em 1em 1em 0;
-    }
-
-    .title {
-        min-width: 50%;
-    }
-    
-    .logo {
-        max-width: 30%;
+@media (max-width: 920px) {
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0 1em 6em;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
     }
 
     .header {
@@ -30,26 +29,31 @@
         display: block;
         padding: 0.5em 0;
     }
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+    
+    .logo {
+        max-width: 30%;
+    }
 
     .js .nav-toggle {
-        display: block;
-        float: right;
-        width: 2em;
-        margin: 0.6667em 0;
-        font-size: 1.5rem;
-        line-height: 2em;
-        text-align: center;
-        cursor: pointer;
+        margin: 0.6667em 0 1em 6em;
     }
 
     .three-col-container {
         grid-template-rows: repeat(10, 1fr);
-
         .html,
         .css,
         .php,
         .git,
-        .extra,
         .sql,
         .js,
         .py {
@@ -62,8 +66,14 @@
         display: none;
     }
 
-    .two-col-container,
-    .three-col-container-flex {
+    .two-col-container {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 451px) {
+    .js .nav-toggle {
+        margin: 1em;
+        font-size: 1.7rem;
     }
 }
