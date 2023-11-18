@@ -48,31 +48,31 @@
     border: 0;
 }
 
-.one {
+.html {
     grid-area: html;
 }
 
-.two {
+.css {
     grid-area: css;
 }
 
-.three {
+.php {
     grid-area: php;
 }
 
-.four {
+.git {
     grid-area: git;
 }
 
-.five {
+.sql {
     grid-area: sql;
 }
 
-.six {
+.js {
     grid-area: js;
 }
 
-.seven {
+.py {
     grid-area: py;
 }
 
@@ -94,8 +94,7 @@
 
 .two-col-container a,
 .two-col-sidebar a,
-.three-col-container a,
-.three-col-content a {
+.three-col-container a {
     color: $font-black;
     text-decoration: none;
     font-weight: bold;
@@ -103,15 +102,13 @@
 
 .two-col-container a:visited,
 .two-col-sidebar a:visited,
-.three-col-container a:visited,
-.three-col-content a:visited {
+.three-col-container a:visited {
     color: $font-black;
 }
 
 .two-col-container a:hover,
 .two-col-sidebar a:hover,
-.three-col-container a:hover,
-.three-col-content a:hover {
+.three-col-container a:hover {
     color: $color-purple;
     text-decoration: underline;
 }
