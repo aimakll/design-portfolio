@@ -6476,7 +6476,8 @@ template {
   .two-col-sidebar {
     display: none;
   }
-  .two-col-container {
+  .two-col-container,
+  .three-col-container-flex {
     flex-direction: column;
   }
 }
@@ -6792,44 +6793,44 @@ body {
 }
 
 .box {
-  grid-column: span 3;
   border: 1px solid #ccc;
   padding: 1em;
   border-radius: 0.3em;
   text-align: center;
 }
 
-.tech-title {
+.box-title {
+  grid-column: span 3;
   grid-area: title;
   color: #0b0b0b;
   border: 0;
 }
 
-.html {
+.one {
   grid-area: html;
 }
 
-.css {
+.two {
   grid-area: css;
 }
 
-.php {
+.three {
   grid-area: php;
 }
 
-.git {
+.four {
   grid-area: git;
 }
 
-.sql {
+.five {
   grid-area: sql;
 }
 
-.js {
+.six {
   grid-area: js;
 }
 
-.py {
+.seven {
   grid-area: py;
 }
 
@@ -6851,7 +6852,8 @@ body {
 
 .two-col-container a,
 .two-col-sidebar a,
-.three-col-container a {
+.three-col-container a,
+.three-col-content a {
   color: #0b0b0b;
   text-decoration: none;
   font-weight: bold;
@@ -6859,13 +6861,30 @@ body {
 
 .two-col-container a:visited,
 .two-col-sidebar a:visited,
-.three-col-container a:visited {
+.three-col-container a:visited,
+.three-col-content a:visited {
   color: #0b0b0b;
 }
 
 .two-col-container a:hover,
 .two-col-sidebar a:hover,
-.three-col-container a:hover {
+.three-col-container a:hover,
+.three-col-content a:hover {
   color: #9A0680;
   text-decoration: underline;
+}
+
+.three-col-container-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.three-col-content {
+  flex: 1;
+  padding: 1em;
+}
+
+.flex-title {
+  flex-basis: 100%;
+  border: 0;
 }
