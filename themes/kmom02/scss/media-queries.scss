@@ -62,7 +62,8 @@
         display: none;
     }
 
-    .two-col-container {
+    .two-col-container,
+    .three-col-container-flex {
         flex-direction: column;
     }
 }

@@ -1,0 +1,14 @@
+.three-col-container-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.three-col-content {
+    flex: 1;
+    padding: 1em;
+}
+
+.flex-title {
+    flex-basis: 100%;
+    border: 0;
+}
