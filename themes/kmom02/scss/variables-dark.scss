@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&family=Bitter:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+
+$font-main: 'Barlow', Arial, Helvetica, sans-serif;
+$font-headers: 'Bitter', Georgia, 'Times New Roman', Times, serif;
+
+$text: #d4d3dc;
+$heading-color: #afafb7;
+$background: #16161c;
+$background-secondary: #222227;
+
+$primary: #512863;
+$complementary: #3a6328;
+
+$color-gray-dark: #222227;
+$color-gray-mid: #8f8f97; /* borders dividers*/
+$color-gray-light: #e5e5ed;
+
+$margin-bottom: 0.6em;
+
+/* reference colours */
+$color-gray-50: #f7f7ff; /* ok text lila o svart*/
+$color-gray-100: #efeff8;
+$color-gray-200: #e5e5ed;
+$color-gray-300: #d4d3dc;
+$color-gray-400: #afafb7;
+$color-gray-500: #8f8f97;
+$color-gray-600: #67676f;
+$color-gray-700: #54545b;
+$color-gray-800: #36363c;
+$color-gray-900: #16161c; /* BASE */
+
+$color-purple-50: #f2e6f1;
+$color-purple-100: #dfc1dd; 
+$color-purple-200: #cb99c7;
+$color-purple-300: #b673b0;
+$color-purple-400: #a6589f;
+$color-purple-500: #96428f;
+$color-purple-600: #8a3d89;
+$color-purple-700: #7a3680;
+$color-purple-800: #6b3176;
+$color-purple-900: #512863;
+
+$color-green-50: #f1f7ea;
+$color-green-100: #dcebc9; 
+$color-green-200: #c4dda8;
+$color-green-300: #aed086;
+$color-green-400: #9dc66c;
+$color-green-500: #8cbc53;
+$color-green-600: #7ead4b;
+$color-green-700: #6a9941;
+$color-green-800: #588538;
+$color-green-900: #3a6328;
+
+
+/* PUT IN SEPARATE FILE */
+
+.content-main a:hover {
+    color: $color-purple-300;
+}
