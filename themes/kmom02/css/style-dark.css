@@ -6423,6 +6423,15 @@ template {
   display: none;
 }
 
+/* borders dividers*/
+/* reference colours */
+/* ok text lila o svart*/
+/* BASE */
+/* PUT IN SEPARATE FILE */
+.content-main a:hover {
+  color: #b673b0;
+}
+
 @media (max-width: 920px) {
   .js .nav-toggle {
     display: block;
@@ -6510,15 +6519,15 @@ template {
   padding: 0.5em;
 }
 .nav a:visited {
-  color: #fdfdfd;
+  color: #e5e5ed;
 }
 .nav a:hover {
-  background-color: #fdfdfd;
-  color: #0b0b0b;
+  background-color: #e5e5ed;
+  color: #512863;
 }
 
 .nav a, .nav-toggle {
-  color: #fdfdfd;
+  color: #e5e5ed;
   text-decoration: none;
 }
 
@@ -6529,7 +6538,7 @@ template {
 body {
   font-family: "Barlow", Arial, Helvetica, sans-serif;
   line-height: 1.5rem;
-  color: #0b0b0b;
+  color: #d4d3dc;
 }
 
 p, td, th, li, dd {
@@ -6554,6 +6563,7 @@ p .align-center {
   line-height: 2.5rem;
   font-weight: bold;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
+  color: #afafb7;
   margin-top: 0.5em;
   font-style: normal;
 }
@@ -6564,6 +6574,7 @@ h1 {
   font-weight: bold;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 2rem;
+  color: #afafb7;
   font-style: normal;
 }
 
@@ -6572,24 +6583,28 @@ h2 {
   line-height: 2.5rem;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1.7rem;
+  color: #afafb7;
 }
 
 h3 {
   line-height: 2.5rem;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1.4rem;
+  color: #afafb7;
 }
 
 h4 {
   line-height: 2.5rem;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1.1rem;
+  color: #afafb7;
 }
 
 h5, h6 {
   line-height: 2.5rem;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
+  color: #afafb7;
 }
 
 h6 {
@@ -6597,11 +6612,12 @@ h6 {
   font-weight: normal;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
+  color: #afafb7;
   font-style: italic;
 }
 
 body {
-  background-color: #fdfdfd;
+  background-color: #16161c;
 }
 
 * {
@@ -6634,7 +6650,7 @@ img .center {
 }
 
 a:visited {
-  color: #0b0b0b;
+  color: #e5e5ed;
 }
 
 blockquote {
@@ -6644,7 +6660,7 @@ blockquote {
   margin-left: 1em;
   margin-bottom: 0.8em;
   padding-left: 1em;
-  border-left: 0.5em solid #9A0680;
+  border-left: 0.5em solid #3a6328;
 }
 
 .quote {
@@ -6660,7 +6676,7 @@ blockquote {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 3em;
-  color: #9A0680;
+  color: #3a6328;
   position: absolute;
   left: 0.09em;
   top: 0.05em;
@@ -6673,9 +6689,8 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
+  border: 1px solid #3a6328;
   border-radius: 0.3em;
-  background: #f5f5f5;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6683,9 +6698,8 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #ccc;
+  border: 1px solid #3a6328;
   border-radius: 0.3em;
-  background: #f5f5f5;
 }
 
 pre code {
@@ -6706,6 +6720,7 @@ body {
 
 .main {
   flex: 1 0 auto;
+  color: #d4d3dc;
 }
 
 .header, .footer {
@@ -6714,7 +6729,8 @@ body {
 
 /* HEADER */
 .header {
-  background-color: #16161c;
+  background-color: #512863;
+  color: #afafb7;
 }
 
 .header, .site-header {
@@ -6728,7 +6744,7 @@ body {
 }
 
 .title * {
-  color: #fdfdfd;
+  color: #e5e5ed;
 }
 
 .title a {
@@ -6747,13 +6763,26 @@ body {
   margin: 0 auto;
 }
 
+.content-main a {
+  color: #d4d3dc;
+  font-weight: bold;
+}
+
+.content-main a:visited {
+  color: #d4d3dc;
+}
+
+.content-main a:hover {
+  color: #7a3680;
+}
+
 /* FOOTER */
 .footer {
   padding: 0.5em;
   display: flex;
   justify-content: space-between;
-  background-color: #16161c;
-  color: #fdfdfd;
+  background-color: #512863;
+  color: #e5e5ed;
 }
 
 .footer a {
@@ -6762,8 +6791,13 @@ body {
 
 .footer a,
 .footer .social {
-  color: #fdfdfd;
+  color: #e5e5ed;
   padding: 0.3em;
+}
+
+.footer a:hover,
+.footer .social:hover {
+  color: #b673b0;
 }
 
 .footer .social {
@@ -6793,7 +6827,7 @@ body {
 .two-col-sidebar {
   flex: 1;
   padding: 1em;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #3a6328;
 }
 
 .two-col-content {
@@ -6802,16 +6836,17 @@ body {
 }
 
 .box {
-  border: 1px solid #ccc;
+  /*border: 1px solid $color-gray-mid;*/
   padding: 1em;
   border-radius: 0.3em;
   text-align: center;
+  background-color: #222227;
 }
 
 .box-title {
   grid-column: span 3;
   grid-area: title;
-  color: #0b0b0b;
+  color: #e5e5ed;
   border: 0;
 }
 
@@ -6862,7 +6897,7 @@ body {
 .two-col-container a,
 .two-col-sidebar a,
 .three-col-container a {
-  color: #0b0b0b;
+  color: #d4d3dc;
   text-decoration: none;
   font-weight: bold;
 }
@@ -6870,16 +6905,12 @@ body {
 .two-col-container a:visited,
 .two-col-sidebar a:visited,
 .three-col-container a:visited {
-  color: #0b0b0b;
+  color: #d4d3dc;
 }
 
 .two-col-container a:hover,
 .two-col-sidebar a:hover,
 .three-col-container a:hover {
-  color: #9A0680;
+  color: #b673b0;
   text-decoration: underline;
-}
-
-.main {
-  background-color: #ccc;
 }

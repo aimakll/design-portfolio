@@ -1,6 +1,6 @@
 
 body {
-    background-color: $background-color-light;
+    background-color: $background;
 }
 
 * {
@@ -33,5 +33,5 @@ img .center {
 }
 
 a:visited {
-    color: $font-black;
+    color: $color-gray-light;
 }

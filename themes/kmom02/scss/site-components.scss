@@ -7,6 +7,7 @@ body {
 
 .main {
     flex: 1 0 auto;
+    color: $text;
 }
 
 .header, .footer {
@@ -16,7 +17,8 @@ body {
 /* HEADER */
 
 .header {
-    background-color: $background-color-dark;
+    background-color: $primary;
+    color: $heading-color;
 }
 
 .header, .site-header {
@@ -31,7 +33,7 @@ body {
 }
 
 .title * {
-    color: $font-white;
+    color: $color-gray-light;
 }
 
 .title a {
@@ -51,14 +53,27 @@ body {
     margin: 0 auto;
 }
 
+.content-main a {
+    color: $text;
+    font-weight: bold;
+}
+
+.content-main a:visited {
+    color: $text;
+}
+
+.content-main a:hover {
+    color: $color-purple-700;
+}
+
 /* FOOTER */
 
 .footer {
     padding: 0.5em;
     display: flex;
     justify-content: space-between;
-    background-color: $background-color-dark;
-    color: $font-white;
+    background-color: $primary;
+    color: $color-gray-light;
 }
 
 .footer a {
@@ -67,8 +82,13 @@ body {
 
 .footer a,
 .footer .social {
-    color: $font-white;
+    color: $color-gray-light;
     padding: 0.3em;
+}
+
+.footer a:hover,
+.footer .social:hover {
+    color: $color-purple-300;
 }
 
 .footer .social {

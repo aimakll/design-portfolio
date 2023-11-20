@@ -5,7 +5,7 @@ blockquote {
     margin-left: 1em;
     margin-bottom: 0.8em;
     padding-left: 1em;
-    border-left: 0.5em solid $color-purple;
+    border-left: 0.5em solid $complementary;
 }
 
 .quote {
@@ -21,7 +21,7 @@ blockquote {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 3em;
-    color: $color-purple;
+    color: $complementary;
     position: absolute;
     left: 0.09em;
     top: 0.05em;

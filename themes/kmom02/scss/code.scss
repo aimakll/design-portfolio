@@ -1,9 +1,8 @@
 code {
     margin: 0 0.1em;
     padding: 0.1em 0.2em;
-    border: 1px solid $color-gray-light;
+    border: 1px solid $complementary;
     border-radius: 0.3em;
-    background: $color-white-alt;
     font-family: monospace;
     font-size: 0.85rem;
     line-height: 1.9824;
@@ -11,9 +10,8 @@ code {
 
 pre {
     padding: 0 1em;
-    border: 1px solid $color-gray-light;
+    border: 1px solid $complementary;
     border-radius: 0.3em;
-    background: $color-white-alt;
 }
 
 pre code {

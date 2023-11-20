@@ -1,7 +1,7 @@
 body {
     font-family: $font-main;
     line-height: 1.5rem;
-    color: $font-black;
+    color: $text;
 }
 
 p, td, th, li, dd {
@@ -28,6 +28,8 @@ p .align-center {
     font-weight: $font-weight;
     font-family: $font-headers;
     font-size: $font-size;
+    color: $heading-color;
+    
   
     @if $margin-top {
         margin-top: $margin-top;

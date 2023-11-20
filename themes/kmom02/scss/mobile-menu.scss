@@ -22,17 +22,17 @@
     }
     
     a:visited {
-        color: $font-white;
+        color: $color-gray-light;
     }
 
     a:hover {
-        background-color: $background-color-light;
-        color: $font-black;
+        background-color: $color-gray-light;
+        color: $primary;
     }
 }
 
 .nav a, .nav-toggle {
-    color: $font-white;
+    color: $color-gray-light;
     text-decoration: none;
 }
 
