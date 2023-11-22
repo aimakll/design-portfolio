@@ -6646,6 +6646,7 @@ html, body {
 img {
   max-width: 100%;
   margin-top: 1em;
+  filter: grayscale(50%);
 }
 
 img .center {

@@ -25,11 +25,13 @@ html, body {
 img {
     max-width: 100%;
     margin-top: 1em;
+    filter: $img-filter;
 }
 
 img .center { 
     display: block;
     margin: 0 auto;
+
 }
 
 a:visited {
