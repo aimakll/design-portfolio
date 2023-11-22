@@ -95,7 +95,8 @@
 
 .two-col-container a,
 .two-col-sidebar a,
-.three-col-container a {
+.three-col-container a,
+.three-col-flex-container a {
     color: $text;
     text-decoration: none;
     font-weight: bold;
@@ -103,13 +104,15 @@
 
 .two-col-container a:visited,
 .two-col-sidebar a:visited,
-.three-col-container a:visited {
+.three-col-container a:visited,
+.three-col-flex-container a:visited {
     color: $text;
 }
 
 .two-col-container a:hover,
 .two-col-sidebar a:hover,
-.three-col-container a:hover {
+.three-col-container a:hover,
+.three-col-flex-container a:hover {
     color: $color-purple-300;
     text-decoration: underline;
 }

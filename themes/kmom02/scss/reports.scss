@@ -1,14 +1,17 @@
-.three-col-container-flex {
+.three-col-flex-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.three-col-content {
+.row {
+    display: flex;
+}
+
+.three-col-flex-content {
     flex: 1;
-    padding: 1em;
+    margin-right: 0.5rem;
 }
 
 .flex-title {
-    flex-basis: 100%;
-    border: 0;
+    background: $background-secondary;
 }
