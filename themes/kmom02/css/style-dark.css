@@ -6487,6 +6487,15 @@ template {
   .two-col-container {
     flex-direction: column;
   }
+  .three-col-flex-content {
+    flex: 1;
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.5rem;
+  }
+  .row {
+    flex-direction: column;
+  }
 }
 @media (max-width: 451px) {
   .js .nav-toggle {
@@ -6558,7 +6567,7 @@ p .align-center {
   line-height: 2.5rem;
   font-weight: bold;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
-  color: #afafb7;
+  color: #d4d3dc;
   margin-top: 0.5em;
   font-style: normal;
 }
@@ -6569,7 +6578,7 @@ h1 {
   font-weight: bold;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 2rem;
-  color: #afafb7;
+  color: #d4d3dc;
   font-style: normal;
 }
 
@@ -6578,28 +6587,28 @@ h2 {
   line-height: 2.5rem;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1.7rem;
-  color: #afafb7;
+  color: #d4d3dc;
 }
 
 h3 {
   line-height: 2.5rem;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1.4rem;
-  color: #afafb7;
+  color: #d4d3dc;
 }
 
 h4 {
   line-height: 2.5rem;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1.1rem;
-  color: #afafb7;
+  color: #d4d3dc;
 }
 
 h5, h6 {
   line-height: 2.5rem;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
-  color: #afafb7;
+  color: #d4d3dc;
 }
 
 h6 {
@@ -6607,7 +6616,7 @@ h6 {
   font-weight: normal;
   font-family: "Bitter", Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
-  color: #afafb7;
+  color: #d4d3dc;
   font-style: italic;
 }
 
@@ -6725,7 +6734,7 @@ body {
 /* HEADER */
 .header {
   background-color: #16161c;
-  color: #afafb7;
+  color: #d4d3dc;
 }
 
 .header, .site-header {
@@ -6895,7 +6904,8 @@ body {
 
 .two-col-container a,
 .two-col-sidebar a,
-.three-col-container a {
+.three-col-container a,
+.three-col-flex-container a {
   color: #d4d3dc;
   text-decoration: none;
   font-weight: bold;
@@ -6903,13 +6913,33 @@ body {
 
 .two-col-container a:visited,
 .two-col-sidebar a:visited,
-.three-col-container a:visited {
+.three-col-container a:visited,
+.three-col-flex-container a:visited {
   color: #d4d3dc;
 }
 
 .two-col-container a:hover,
 .two-col-sidebar a:hover,
-.three-col-container a:hover {
+.three-col-container a:hover,
+.three-col-flex-container a:hover {
   color: #b673b0;
   text-decoration: underline;
+}
+
+.three-col-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.three-col-flex-content {
+  flex: 1;
+  margin-right: 0.5rem;
+}
+
+.flex-title {
+  background: #36363c;
 }

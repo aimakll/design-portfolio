@@ -6486,6 +6486,15 @@ template {
   .two-col-container {
     flex-direction: column;
   }
+  .three-col-flex-content {
+    flex: 1;
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.5rem;
+  }
+  .row {
+    flex-direction: column;
+  }
 }
 @media (max-width: 451px) {
   .js .nav-toggle {
@@ -6894,7 +6903,8 @@ body {
 
 .two-col-container a,
 .two-col-sidebar a,
-.three-col-container a {
+.three-col-container a,
+.three-col-flex-container a {
   color: #16161c;
   text-decoration: none;
   font-weight: bold;
@@ -6902,28 +6912,33 @@ body {
 
 .two-col-container a:visited,
 .two-col-sidebar a:visited,
-.three-col-container a:visited {
+.three-col-container a:visited,
+.three-col-flex-container a:visited {
   color: #16161c;
 }
 
 .two-col-container a:hover,
 .two-col-sidebar a:hover,
-.three-col-container a:hover {
+.three-col-container a:hover,
+.three-col-flex-container a:hover {
   color: #b673b0;
   text-decoration: underline;
 }
 
-.three-col-container-flex {
+.three-col-flex-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.three-col-content {
+.row {
+  display: flex;
+}
+
+.three-col-flex-content {
   flex: 1;
-  padding: 1em;
+  margin-right: 0.5rem;
 }
 
 .flex-title {
-  flex-basis: 100%;
-  border: 0;
+  background: #f7f7ff;
 }
