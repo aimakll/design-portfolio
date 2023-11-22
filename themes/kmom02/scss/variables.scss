@@ -6,16 +6,24 @@ $font-headers: 'Bitter', Georgia, 'Times New Roman', Times, serif;
 $text: #16161c;
 $heading-color: #36363c;
 $background: #f7f7ff;
-$background-secondary: #efeff8;
+$background-rgb: rgb(245, 245, 255);
+$background-secondary: #f7f7ff;
+$background-items: #efeff8;
 
 $primary: #512863;
-$complementary: #3a6328;
+$complementary: #7a3680;
 
 $color-gray-dark: #36363c;
-$color-gray-mid: #8f8f97; /* borders dividers*/
+$color-gray-mid: #8f8f97;
 $color-gray-light: #e5e5ed;
 
+$header: #512863;
+$footer: #512863;
+$link-hover: #6b3176;
+
 $margin-bottom: 0.6em;
+
+/* REFERENCES */
 
 $color-gray-50: #f7f7ff; /* ok text lila o svart*/
 $color-gray-100: #efeff8;
@@ -38,14 +46,3 @@ $color-purple-600: #8a3d89;
 $color-purple-700: #7a3680;
 $color-purple-800: #6b3176;
 $color-purple-900: #512863;
-
-$color-green-50: #f1f7ea;
-$color-green-100: #dcebc9; 
-$color-green-200: #c4dda8;
-$color-green-300: #aed086;
-$color-green-400: #9dc66c;
-$color-green-500: #8cbc53;
-$color-green-600: #7ead4b;
-$color-green-700: #6a9941;
-$color-green-800: #588538;
-$color-green-900: #3a6328;

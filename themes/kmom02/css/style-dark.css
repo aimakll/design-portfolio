@@ -6424,14 +6424,9 @@ template {
 }
 
 /* borders dividers*/
-/* reference colours */
+/* REFERENCES */
 /* ok text lila o svart*/
 /* BASE */
-/* PUT IN SEPARATE FILE */
-.content-main a:hover {
-  color: #b673b0;
-}
-
 @media (max-width: 920px) {
   .js .nav-toggle {
     display: block;
@@ -6660,7 +6655,7 @@ blockquote {
   margin-left: 1em;
   margin-bottom: 0.8em;
   padding-left: 1em;
-  border-left: 0.5em solid #3a6328;
+  border-left: 0.5em solid #7a3680;
 }
 
 .quote {
@@ -6676,7 +6671,7 @@ blockquote {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 3em;
-  color: #3a6328;
+  color: #7a3680;
   position: absolute;
   left: 0.09em;
   top: 0.05em;
@@ -6689,7 +6684,7 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #3a6328;
+  border: 1px solid #7a3680;
   border-radius: 0.3em;
   font-family: monospace;
   font-size: 0.85rem;
@@ -6698,7 +6693,7 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #3a6328;
+  border: 1px solid #7a3680;
   border-radius: 0.3em;
 }
 
@@ -6729,7 +6724,7 @@ body {
 
 /* HEADER */
 .header {
-  background-color: #512863;
+  background-color: #16161c;
   color: #afafb7;
 }
 
@@ -6756,6 +6751,10 @@ body {
 }
 
 /* MAIN */
+.main {
+  background-color: #36363c;
+}
+
 .content-main {
   max-width: 85em;
   min-height: 30vw;
@@ -6773,7 +6772,7 @@ body {
 }
 
 .content-main a:hover {
-  color: #7a3680;
+  color: #b673b0;
 }
 
 /* FOOTER */
@@ -6781,7 +6780,7 @@ body {
   padding: 0.5em;
   display: flex;
   justify-content: space-between;
-  background-color: #512863;
+  background-color: #16161c;
   color: #e5e5ed;
 }
 
@@ -6801,7 +6800,7 @@ body {
 }
 
 .footer .social {
-  font-size: 2rem;
+  font-size: 1.1rem;
 }
 
 .grid {
@@ -6827,7 +6826,7 @@ body {
 .two-col-sidebar {
   flex: 1;
   padding: 1em;
-  border-right: 1px solid #3a6328;
+  border-right: 1px solid #7a3680;
 }
 
 .two-col-content {
@@ -6840,14 +6839,14 @@ body {
   padding: 1em;
   border-radius: 0.3em;
   text-align: center;
-  background-color: #222227;
+  background-color: rgba(22, 22, 29, 0.1);
 }
 
 .box-title {
   grid-column: span 3;
   grid-area: title;
-  color: #e5e5ed;
   border: 0;
+  background-color: #36363c;
 }
 
 .html {
