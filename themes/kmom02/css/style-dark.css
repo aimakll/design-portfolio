@@ -6487,7 +6487,7 @@ template {
   .two-col-container {
     flex-direction: column;
   }
-  .three-col-flex-content {
+  .col-flex-content {
     flex: 1;
     width: 100%;
     margin-right: 0;
@@ -6906,7 +6906,7 @@ body {
 .two-col-container a,
 .two-col-sidebar a,
 .three-col-container a,
-.three-col-flex-container a {
+.col-flex-container a {
   color: #d4d3dc;
   text-decoration: none;
   font-weight: bold;
@@ -6915,19 +6915,19 @@ body {
 .two-col-container a:visited,
 .two-col-sidebar a:visited,
 .three-col-container a:visited,
-.three-col-flex-container a:visited {
+.col-flex-container a:visited {
   color: #d4d3dc;
 }
 
 .two-col-container a:hover,
 .two-col-sidebar a:hover,
 .three-col-container a:hover,
-.three-col-flex-container a:hover {
+.col-flex-container a:hover {
   color: #b673b0;
   text-decoration: underline;
 }
 
-.three-col-flex-container {
+.col-flex-container {
   display: flex;
   flex-direction: column;
 }
@@ -6936,7 +6936,7 @@ body {
   display: flex;
 }
 
-.three-col-flex-content {
+.col-flex-content {
   flex: 1;
   margin-right: 0.5rem;
 }
