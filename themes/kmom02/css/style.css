@@ -6657,6 +6657,21 @@ a:visited {
   color: #e5e5ed;
 }
 
+table {
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #7a3680;
+}
+
+th,
+td {
+  padding: 0.5rem 1rem;
+}
+
 blockquote {
   font-style: italic;
   font-size: 1.5em;
