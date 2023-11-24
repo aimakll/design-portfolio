@@ -1,5 +1,5 @@
 ---
-Title: Rapporter
+Title: Analysis
 Description: This is the page for the reports.
 Template: reports
 ---
