@@ -10,8 +10,8 @@ Template: reports
   <div class="col-flex-content">
     <a href="%assets_url%/img/gallery/cafecito.jpg" target="_blank">
     <picture>
-    <source media="(min-width: 768px)" srcset="image/gallery/cafecito.jpg?h=400&w=400&&aro&crop-to-fit">
-    <source media="(max-width: 767.99px)" srcset="image/gallery/cafecito.jpg?h=550&w=550&&aro&crop-to-fit">
+    <source media="(min-width: 768px)" srcset="image/gallery/cafecito.jpg?h=400&w=400&aro&crop-to-fit">
+    <source media="(max-width: 767.99px)" srcset="image/gallery/cafecito.jpg?h=550&w=550&aro&crop-to-fit">
       <img src="image/gallery/cafecito.jpg?h=350&w=350&aro&crop-to-fit">
     </picture>
     </a>
