@@ -22,8 +22,11 @@ html, body {
     height: 100%;
 }
 
-img {
+img, embed, object, video {
     max-width: 100%;
+}
+
+img {
     margin-top: 1em;
     filter: $img-filter;
 }
@@ -51,4 +54,22 @@ td {
 th,
 td {
     padding: 0.5rem 1rem;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* aspect ratio 16:9, 75% for 4:3*/
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

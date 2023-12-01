@@ -6439,6 +6439,7 @@ template {
   }
   .header {
     flex-direction: column;
+    max-width: 100%;
   }
   .nav ul {
     flex-direction: column;
@@ -6642,8 +6643,11 @@ html, body {
   height: 100%;
 }
 
-img {
+img, embed, object, video {
   max-width: 100%;
+}
+
+img {
   margin-top: 1em;
   filter: grayscale(0%);
 }
@@ -6670,6 +6674,24 @@ td {
 th,
 td {
   padding: 0.5rem 1rem;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%; /* aspect ratio 16:9, 75% for 4:3*/
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 blockquote {
@@ -6957,4 +6979,50 @@ body {
 
 .flex-title {
   background: #f7f7ff;
+}
+
+.four-col-container {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "title title title title" "img1 img2 img3 img4" "img5 img6 img7 img8";
+}
+
+.four-col-container .box-title {
+  grid-column: span 4;
+}
+
+.img1 {
+  grid-row: 2;
+}
+
+.img2 {
+  grid-row: 2;
+}
+
+.img3 {
+  grid-row: 2;
+}
+
+.img4 {
+  grid-row: 2;
+}
+
+.img5 {
+  grid-row: 3;
+}
+
+.img6 {
+  grid-row: 3;
+}
+
+.img7 {
+  grid-row: 3;
+}
+
+.img8 {
+  grid-row: 3;
+}
+
+picture img {
+  max-width: 100%;
 }
