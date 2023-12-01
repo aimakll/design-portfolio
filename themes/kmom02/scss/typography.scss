@@ -22,6 +22,10 @@ p .align-center {
     text-align: center; 
 }
 
+.italic {
+    font-style: italic;
+}
+
 @mixin header-styles($font-size, $margin-bottom, $margin-top: null, $font-weight: bold, $font-style: normal) {
     margin-bottom: $margin-bottom;
     line-height: 2.5rem;
