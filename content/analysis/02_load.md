@@ -96,7 +96,7 @@ Hela resultatsetet:
     <div class="col-flex-content">
         <a href="%assets_url%/img/reports/sarajuliasvensson.com_01.png" target="_blank">
         <picture>
-            <img src="%base_url%/image/reports/sarajuliasvensson.com_01.png?h=250&w=250&crop-to-fit&area=0,0,80,0">
+            <img src="%base_url%/image/reports/sarajuliasvensson.com_01.png?h=250&w=250&crop-to-fit&area=0,0,80,0" alt="startsidan sarajuliasvensson.com">
         </picture>
         </a>
         <p class="italic">Första sidan</p>
@@ -104,7 +104,7 @@ Hela resultatsetet:
     <div class="col-flex-content">
         <a href="%assets_url%/img/reports/sarajuliasvensson.com_project_inside-the-head-duplicate.png" target="_blank">
         <picture>
-            <img src="%base_url%/image/reports/sarajuliasvensson.com_project_inside-the-head-duplicate.png?h=250&w=250&crop-to-fit&area=0,0,80,0">
+            <img src="%base_url%/image/reports/sarajuliasvensson.com_project_inside-the-head-duplicate.png?h=250&w=250&crop-to-fit&area=0,0,80,0" alt="projektsida sarajuliasvensson.com">
         </picture>
         </a>
         <p class="italic">Projektsida</p>
@@ -126,7 +126,7 @@ Möjliga förbättringar på den här sidan är i stort sett samma både på mob
         <div class="col-flex-content">
         <a href="%assets_url%/img/reports/francoisxaviermanceau.com_.png" target="_blank">
         <picture>
-            <img src="%base_url%/image/reports/francoisxaviermanceau.com_.png?h=250&w=250&crop-to-fit">
+            <img src="%base_url%/image/reports/francoisxaviermanceau.com_.png?h=250&w=250&crop-to-fit" alt="startsidan francoisxaviermanceau.com">
         </picture>
         </a>
         <p class="italic">Första sidan</p>
@@ -134,7 +134,7 @@ Möjliga förbättringar på den här sidan är i stort sett samma både på mob
     <div class="col-flex-content">
         <a href="%assets_url%/img/reports/francoisxaviermanceau.com_projects_digital-work_keepgrading.png" target="_blank">
         <picture>
-            <img src="%base_url%/image/reports/francoisxaviermanceau.com_projects_digital-work_keepgrading.png?h=250&w=250&crop-to-fit&area=0,0,80,0">
+            <img src="%base_url%/image/reports/francoisxaviermanceau.com_projects_digital-work_keepgrading.png?h=250&w=250&crop-to-fit&area=0,0,80,0" alt="projektsida francoisxaviermanceau.com">
         </picture>
         </a>
         <p class="italic">Projektsida</p>
@@ -154,7 +154,7 @@ Första sidan är den snabbaste av samtliga testade att laddas, medan projektsid
         <div class="col-flex-content">
         <a href="%assets_url%/img/reports/luyu.co_01.png" target="_blank">
         <picture>
-            <img src="%base_url%/image/reports/luyu.co_01.png?h=250&w=250&crop-to-fit&area=0,0,80,0">
+            <img src="%base_url%/image/reports/luyu.co_01.png?h=250&w=250&crop-to-fit&area=0,0,80,0" alt="startsidan luyu.co">
         </picture>
         </a>
         <p class="italic">Första sidan</p>
@@ -162,7 +162,7 @@ Första sidan är den snabbaste av samtliga testade att laddas, medan projektsid
     <div class="col-flex-content">
         <a href="%assets_url%/img/reports/luyu.co_project.png" target="_blank">
         <picture>
-            <img src="%base_url%/image/reports/luyu.co_project.png?h=250&w=250&crop-to-fit&area=0,0,80,0">
+            <img src="%base_url%/image/reports/luyu.co_project.png?h=250&w=250&crop-to-fit&area=0,0,80,0" alt="projektsida luyu.co">
         </picture>
         </a>
         <p class="italic">Projektsida</p>
