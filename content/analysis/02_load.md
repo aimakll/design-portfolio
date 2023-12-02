@@ -199,10 +199,10 @@ Om webbläsaren stöter på ett skript (som JavaScript eller CSS) i den här pro
 
 På grund av detta är det rekommendarat att skjuta upp inläsning av skript som inte är nödvändiga för sidans funktion, och det kan även vara bra att se till att avlägsna all kod som inte används [5].
 
-Att inte läsa in saker direkt utan istället laddda innehållet allt eftersom sidan syns (så kallad lat inläsning) [6] verkar användas på samtliga sidor, dock verkar de ladda in en hel del resurser som inte syns vilket resulterar i att sidan är betydligt långsammare.
-Det blir skillnader i fullstora skärmbilder på sidorna, Sara och Lu renderar bakgrunderna så det blir långa men tomma bilder - Francois resulterar enbart i en bild med  innehållet "above the fold", alltså enbart det som syns just då i webbläsaren [2, s. 9] - trots att allt innehåll verkar ha laddats. 
+Att inte läsa in saker direkt utan istället ladda innehållet allt eftersom sidan syns (så kallad lat inläsning) [6] verkar användas på samtliga sidor, dock verkar de ladda in en hel del resurser som inte syns vilket resulterar i att sidan är betydligt långsammare.
+Det blir skillnader i fullstora skärmbilder på sidorna (se bilder på förstasidorna under resultat), Sara och Lu renderar bakgrunderna så det blir långa men tomma bilder - Francois resulterar enbart i en bild med  innehållet "above the fold", alltså enbart det som syns just då i webbläsaren [2, s. 9] - trots att allt innehåll verkar ha laddats. 
 
-CMS som Wordpress underlättar arbetet för designers då det inte krävs några kunskaper i kodning, dessvärre väljer man ofta bort de möjligheter som finns att skräddarsy en sida på bästa sätt. Francois har fördelen att han kan styra över sina bilder exempelvis, och vilket innehåll som laddas när. Om han utnyttjar detta bättre skulle sidan bli betydligt trevligare att besöka. Jag upplever att mätresultaten stämmer väl överens med hur snabb sidan uppfattas.
+CMS som Wordpress underlättar arbetet för designers då det inte krävs några kunskaper i kodning, dessvärre väljer man ofta bort de möjligheter som finns att skräddarsy en sida på bästa sätt. Francois har fördelen att han kan styra över sina bilder exempelvis, och vilket innehåll som laddas när. Om han utnyttjar detta bättre skulle sidan bli betydligt trevligare att besöka. Jag upplever att mätresultaten stämmer väl överens med hur långsam sidan upplevs.
 
 Det är intressant att se att den snabbaste och långsammaste sidan båda använder Wordpress - och samma tema. Även om skaparen inte har någon kunskap kring kodning eller optimering så har Wordpress plugins till det mesta, som att konvertera uppladdade bilder till WebP [7] och optimera sidan och prioritera nödvändiga skript [8]. Sedan är det en helt annan diskussion om hur säkert och effektivt det är att använda för många plugins, men om de väljs med omsorg kan de hjälpa personen bakom webbsidan att skapa en trevligare och snabbare upplevelse.
 
@@ -216,7 +216,7 @@ Francois och Lu får dela på sistaplatsen, även om Lu har knep de flesta av de
 Vad gör då att en webbplats upplevs som snabb eller långsam?
 Jag har använt internet så pass länge att jag fortfarande kan höra ljudet av ett modem som kopplar upp sig mot nätet. Sidor laddade långsamt hur de än var kodade. Långt efter intåget av fast internetuppkppling hade jag ganska stort tålamod med laddningstider, men detta har minskats avsevärt. Efter 2-3 sekunder börjar jag fundera på vad som är fel och tappa tålamodet, så där någonstans går min gräns. 
 
-De flesta sidorna jag testat klarar sig teoretiskt, men i praktiken är de sidorna långsammare på grund av hur enkelt det är att interagera med sidan direkt. Långsamma animationer och effekter som hos både Lu och Francois gör att sidan inte känns "färdigladdad" och skapar frustration. 
+De flesta sidorna jag testat klarar sig teoretiskt, men i praktiken är de sidorna långsammare på grund av hur enkelt det är att interagera med sidan direkt. Långsamma animationer och effekter som hos både Lu och Francois gör att sidan inte känns "färdigladdad" och det skapar frustration. 
 
 ## Referenser
 
