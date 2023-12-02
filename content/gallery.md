@@ -12,7 +12,7 @@ Template: reports
     <picture>
     <source media="(min-width: 768px)" srcset="image/gallery/cafecito.jpg?h=400&w=400&aro&crop-to-fit">
     <source media="(max-width: 767.99px)" srcset="image/gallery/cafecito.jpg?h=550&w=550&aro&crop-to-fit">
-      <img src="image/gallery/cafecito.jpg?h=350&w=350&aro&crop-to-fit">
+      <img src="image/gallery/cafecito.jpg?h=350&w=350&aro&crop-to-fit" alt="skylt med nespresso-reklam">
     </picture>
     </a>
   </div>
@@ -21,7 +21,7 @@ Template: reports
     <picture>
     <source media="(min-width: 768px)" srcset="image/gallery/devin-avery-5iRgh_G0eRY-unsplash.jpg?h=400&w=400&crop-to-fit">
     <source media="(max-width: 767.99px)" srcset="image/gallery/devin-avery-5iRgh_G0eRY-unsplash.jpg?h=550&w=550&crop-to-fit">
-      <img src="image/gallery/devin-avery-5iRgh_G0eRY-unsplash.jpg?h=350&w=350&crop-to-fit">
+      <img src="image/gallery/devin-avery-5iRgh_G0eRY-unsplash.jpg?h=350&w=350&crop-to-fit" alt="kaffe i vit kopp">
     </picture>
     </a>
   </div>
@@ -30,7 +30,7 @@ Template: reports
     <picture>
     <source media="(min-width: 768px)" srcset="image/gallery/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg?h=400&w=400&crop-to-fit">
     <source media="(max-width: 767.99px)" srcset="image/gallery/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg?h=550&w=550&crop-to-fit">
-      <img src="image/gallery/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg?h=350&w=350&crop-to-fit">
+      <img src="image/gallery/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg?h=350&w=350&crop-to-fit" alt="kaffe i kopp sedd från ovan">
     </picture>
     </a>
   </div>
@@ -42,7 +42,7 @@ Template: reports
     <picture>
   <source media="(min-width: 768px)" srcset="image/gallery/ante-samarzija-lsmu0rUhUOk-unsplash.jpg?h=400&w=400&crop-to-fit">
   <source media="(max-width: 767.99px)" srcset="image/gallery/ante-samarzija-lsmu0rUhUOk-unsplash.jpg?h=550&w=550&crop-to-fit">
-      <img src="image/gallery/ante-samarzija-lsmu0rUhUOk-unsplash.jpg?h=350&w=350&crop-to-fit">
+      <img src="image/gallery/ante-samarzija-lsmu0rUhUOk-unsplash.jpg?h=350&w=350&crop-to-fit" alt="mugg med kaffe och kaffebönor">
     </picture>
     </a>
   </div>
@@ -52,7 +52,7 @@ Template: reports
     <picture>
     <source media="(min-width: 768px)" srcset="image/gallery/janko-ferlic-h9Iq22JJlGk-unsplash.jpg?h=400&w=400&crop-to-fit">
     <source media="(max-width: 767.99px)" srcset="image/gallery/janko-ferlic-h9Iq22JJlGk-unsplash.jpg?h=550&w=550&crop-to-fit">
-      <img src="image/gallery/janko-ferlic-h9Iq22JJlGk-unsplash.jpg?h=350&w=350&crop-to-fit">
+      <img src="image/gallery/janko-ferlic-h9Iq22JJlGk-unsplash.jpg?h=350&w=350&crop-to-fit" alt="kaffekopp, bönor och malet kaffe sett från ovan">
     </picture>
     </a>
   </div>
@@ -62,7 +62,7 @@ Template: reports
     <picture>
     <source media="(min-width: 768px)" srcset="image/gallery/julia-zyablova-EwaJbJvS9io-unsplash.jpg?h=400&w=400&crop-to-fit">
     <source media="(max-width: 767.99px)" srcset="image/gallery/julia-zyablova-EwaJbJvS9io-unsplash.jpg?h=550&w=550&crop-to-fit">
-    <img src="image/gallery/julia-zyablova-EwaJbJvS9io-unsplash.jpg?h=350&w=350&crop-to-fit">
+    <img src="image/gallery/julia-zyablova-EwaJbJvS9io-unsplash.jpg?h=350&w=350&crop-to-fit" alt="olika sorters choklad i en stapel">
     </picture>
     </a>
   </div>
@@ -74,7 +74,7 @@ Template: reports
     <picture>
     <source media="(min-width: 768px)" srcset="image/gallery/emre-NZMeJsrMC8U-unsplash.jpg?h=400&w=400&crop-to-fit">
     <source media="(max-width: 767.99px)" srcset="image/gallery/emre-NZMeJsrMC8U-unsplash.jpg?h=550&w=550&crop-to-fit">
-      <img src="image/gallery/emre-NZMeJsrMC8U-unsplash.jpg?h=350&w=350&crop-to-fit">
+      <img src="image/gallery/emre-NZMeJsrMC8U-unsplash.jpg?h=350&w=350&crop-to-fit" alt="en kopp kaffe med fat">
     </picture>
   </a>
   </div>
@@ -84,7 +84,7 @@ Template: reports
     <picture>
     <source media="(min-width: 768px)" srcset="image/gallery/alin-luna-t4bpI1lXVH0-unsplash.jpg?h=400&w=400&crop-to-fit">
     <source media="(max-width: 767.99px)" srcset="image/gallery/alin-luna-t4bpI1lXVH0-unsplash.jpg?h=550&w=550&crop-to-fit">
-      <img src="image/gallery/alin-luna-t4bpI1lXVH0-unsplash.jpg?h=350&w=350&crop-to-fit">
+      <img src="image/gallery/alin-luna-t4bpI1lXVH0-unsplash.jpg?h=350&w=350&crop-to-fit" alt="bord med kaffebönor och del av kaffekopp med kaffe sedd ovanifrån">
     </picture>
     </a>
   </div>
@@ -94,7 +94,7 @@ Template: reports
     <picture>
     <source media="(min-width: 768px)" srcset="image/gallery/funchal.jpg?h=400&w=400&crop-to-fit">
     <source media="(max-width: 767.99px)" srcset="image/gallery/funchal.jpg?h=550&w=550&crop-to-fit">
-      <img src="image/gallery/funchal.jpg?h=350&w=350&crop-to-fit" alt="">
+      <img src="image/gallery/funchal.jpg?h=350&w=350&crop-to-fit" alt="dekorationspapegoja från trädgård i Funchal, Madeira">
     </picture>
     </a>
   </div>
