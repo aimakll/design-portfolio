@@ -27,7 +27,7 @@ så har jag läst kurser i bland annat danska, pedagogik och data analytics (som
   </footer>
 </blockquote>
 
-![krstd](assets/img/botanischer_garten.jpg)
+![Botanischer Garten, Berlin](image/botanischer_garten.jpg?width=80%)
 
 *Botaniska trädgården i Berlin, eftersom sådant här är roligare att ta bilder på än mig själv*
 
