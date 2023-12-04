@@ -55,7 +55,7 @@ Utöver detta används Google Kalkylark för att skriva ner resultaten.
 
 Prestanda (sämsta värdet fetmarkerat):
 
-|                    | PageSpeed (mobil) | PageSpeed (dator) |
+| Namn (sida)        | PageSpeed (mobil) | PageSpeed (dator) |
 |--------------------|-----------------------------|-----------------------------|
 | Sara               | 83                          | 95                          |
 | Francois           | 83                          | 99                          |
@@ -71,7 +71,7 @@ Prestanda (sämsta värdet fetmarkerat):
 
 Enbart genomsnitt, sorterat efter typ av sida (sämsta värdet fetmarkerat):
 
-|                    | Laddningstid (s) | Antal resurser | Sidans storlek (MB) |
+| Namn (sida)        | Laddningstid (s) | Antal resurser | Sidans storlek (MB) |
 |--------------------|------------------|----------------|---------------------|
 | Sara               | 1.53             | 30             | 2.4                 |
 | Francois           | 1.52             | 37             | 1.6                 |
@@ -86,7 +86,7 @@ Enbart genomsnitt, sorterat efter typ av sida (sämsta värdet fetmarkerat):
 Hela resultatsetet:
 
 <div class="embed-container">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQONY1xVUboVm2XQFvXj67vGMWwJasBtJalCZ1RIb__DPNO4VuNGcUi7tN2TBOt4HJQnK1wwxDEDPwp/pubhtml?gid=1873021622&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQONY1xVUboVm2XQFvXj67vGMWwJasBtJalCZ1RIb__DPNO4VuNGcUi7tN2TBOt4HJQnK1wwxDEDPwp/pubhtml?gid=1873021622&amp;single=true&amp;widget=true&amp;headers=false" title="resultatset som google kalkylark"></iframe>
 </div>
 
 ### Sida 1 - Sara Svensson

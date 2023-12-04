@@ -127,19 +127,19 @@ Kontrast
 <div class="col-flex-container">
 <div class="row">
     <div class="col-flex-content">
-    <a href="../assets/img/reports/sarajuliasvensson_full-w1294.jpg"><img src="../assets/img/reports/sarajuliasvensson_full-w250.jpg"></a>
+    <a href="../assets/img/reports/sarajuliasvensson_full-w1294.jpg" aria-label="länk till bild på förstasidan sarajuliasvensson.com"><img src="../assets/img/reports/sarajuliasvensson_full-w250.jpg" alt="bild på förstasidan sarajuliasvensson.com"></a>
     <p>Första sidan</p>
     </div>
     <div class="col-flex-content">
-    <a href="../assets/img/reports/sarajuliasvensson_full-about-w1294.jpg"><img src="../assets/img/reports/sarajuliasvensson_full-about-w250.jpg"></a>
+    <a href="../assets/img/reports/sarajuliasvensson_full-about-w1294.jpg" aria-label="länk till bild på about-sidan sarajuliasvensson.com"><img src="../assets/img/reports/sarajuliasvensson_full-about-w250.jpg" alt="bild på about-sidan sarajuliasvensson.com"></a>
     <p>"About"</p>
     </div>
     <div class="col-flex-content">
-    <a href="../assets/img/reports/sarajuliasvensson_full-product-w1294.jpg"><img src="../assets/img/reports/sarajuliasvensson_full-product-w250.jpg"></a>
+    <a href="../assets/img/reports/sarajuliasvensson_full-product-w1294.jpg" aria-label="länk till bild på projektsida sarajuliasvensson.com"><img src="../assets/img/reports/sarajuliasvensson_full-product-w250.jpg"alt="bild på projektsida sarajuliasvensson.com"></a>
     <p>Exempel på projektsida</p>
     </div>
     <div class="col-flex-content">
-    <a href="../assets/img/reports/sarajuliasvensson_no-right-click.png"><img src="../assets/img/reports/sarajuliasvensson_no-right-click.png"></a>
+    <a href="../assets/img/reports/sarajuliasvensson_no-right-click.png" aria-label="länk till detaljbild sarajuliasvensson.com"><img src="../assets/img/reports/sarajuliasvensson_no-right-click.png" alt="detaljbild sarajuliasvensson.com"></a>
     <p>Sara har blockerat möjligheten att högerklicka.</p>
     </div>    
 </div>
@@ -204,24 +204,24 @@ Kontrast
 <div class="col-flex-container">
 <div class="row">
     <div class="col-flex-content">
-    <a href="../assets/img/reports/francoisxaviermanceau_full-w1294.jpg"><img src="../assets/img/reports/francoisxaviermanceau_full-w250.jpg"></a>
+    <a href="../assets/img/reports/francoisxaviermanceau_full-w1294.jpg" aria-label="länk till bild på förstasidan francoisxaviermanceau.com"><img src="../assets/img/reports/francoisxaviermanceau_full-w250.jpg" alt="bild på förstasidan francoisxaviermanceau.com"></a>
     <p>Första sidan</p>
     </div>
     <div class="col-flex-content">
     <p></p>
-    <a href="../assets/img/reports/francoisxaviermanceau_full-about-w1294.jpg"><img src="../assets/img/reports/francoisxaviermanceau_full-about-w250.jpg"></a>
+    <a href="../assets/img/reports/francoisxaviermanceau_full-about-w1294.jpg" aria-label="länk till bild på about-sidan francoisxaviermanceau.com"><img src="../assets/img/reports/francoisxaviermanceau_full-about-w250.jpg" alt="bild på about-sidan francoisxaviermanceau.com"></a>
     <p>"About"</p>
     </div>
     <div class="col-flex-content">
-    <a href="../assets/img/reports/francoisxaviermanceau_full-product-w1294.jpg"><img src="../assets/img/reports/francoisxaviermanceau_full-product-w250.jpg"></a>
+    <a href="../assets/img/reports/francoisxaviermanceau_full-product-w1294.jpg" aria-label="länk till bild på projektsida francoisxaviermanceau.com"><img src="../assets/img/reports/francoisxaviermanceau_full-product-w250.jpg" alt="bild på projektsida francoisxaviermanceau.com"></a>
     <p>Exempel på projektsida</p>
     </div>
     <div class="col-flex-content">
-    <a href="../assets/img/reports/francoisxaviermanceau_full-menu-w1294.jpg"><img src="../assets/img/reports/francoisxaviermanceau_full-menu-w250.jpg"></a>
+    <a href="../assets/img/reports/francoisxaviermanceau_full-menu-w1294.jpg" aria-label="länk till bild på menyn francoisxaviermanceau.com"><img src="../assets/img/reports/francoisxaviermanceau_full-menu-w250.jpg" alt="bild på menyn francoisxaviermanceau.com"></a>
     <p>Menyn</p>
     </div>
     <div class="col-flex-content">
-    <a href="../assets/img/reports/francoisxaviermanceau.com-peekaboo.png"><img src="../assets/img/reports/francoisxaviermanceau.com-peekaboo.png"></a>
+    <a href="../assets/img/reports/francoisxaviermanceau.com-peekaboo.png" aria-label="länk till detaljbild francoisxaviermanceau.com"><img src="../assets/img/reports/francoisxaviermanceau.com-peekaboo.png" alt="detaljbild francoisxaviermanceau.com"></a>
     <p>Francois säger hej till den som vill kontrollera hans källkod.</p>
     </div>
 </div>
@@ -309,15 +309,15 @@ Kontrast
 <div class="col-flex-container">
 <div class="row">
     <div class="col-flex-content">
-    <a href="../assets/img/reports/luyu_full-w1294.jpg"><img src="../assets/img/reports/luyu_full-w250.jpg"></a>
+    <a href="../assets/img/reports/luyu_full-w1294.jpg" aria-label="länk till bild på förstasidan luyu.co"><img src="../assets/img/reports/luyu_full-w250.jpg" alt="bild på förstasidan luyu.co"></a>
     <p>Första sidan</p>
     </div>
     <div class="col-flex-content">
-    <a href="../assets/img/reports/luyu_full-about-w1294.jpg"><img src="../assets/img/reports/luyu_full-about-w250.jpg"></a>
+    <a href="../assets/img/reports/luyu_full-about-w1294.jpg "aria-label="länk till bild på about-sidan luyu.co"><img src="../assets/img/reports/luyu_full-about-w250.jpg" alt="bild på about-sidan luyu.co"></a>
     <p>"About"</p>
     </div>
     <div class="col-flex-content">
-    <a href="../assets/img/reports/luyu_full-product-w1294.jpg"><img src="../assets/img/reports/luyu_full-product-w250.jpg"></a>
+    <a href="../assets/img/reports/luyu_full-product-w1294.jpg" aria-label="länk till bild på projektsida luyu.co"><img src="../assets/img/reports/luyu_full-product-w250.jpg" alt="bild på projektsida luyu.co"></a>
     <p>Exempel på projektsida</p>
     </div>
 </div>
