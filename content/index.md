@@ -27,7 +27,10 @@ så har jag läst kurser i bland annat danska, pedagogik och data analytics (som
   </footer>
 </blockquote>
 
-![Botanischer Garten, Berlin](image/botanischer_garten.jpg?width=80%)
+<picture>
+  <source media="(min-width: 768px)" srcset="image/botanischer_garten.jpg?h=768&w=1024">
+    <img src="image/botanischer_garten.jpg?h=450&w=850&crop-to-fit" alt="Botanischer Garten, Berlin">
+</picture>
 
 *Botaniska trädgården i Berlin, eftersom sådant här är roligare att ta bilder på än mig själv*
 
