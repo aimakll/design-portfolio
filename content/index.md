@@ -6,31 +6,65 @@ Description: Detta är startsidan.
 Om mig
 ==========================
 
-Hej hej! Mitt namn är Kamilla, jag tar mitt kaffe svart och min kladdkaka varm.
+<div class="row">
+  <div class="col-flex-content">
+  <div markdown="1">
+  Hej hej! Mitt namn är Kamilla, jag tar mitt kaffe svart och min kladdkaka varm.
 
-Har precis flyttat till Berlin. Ursprungligen från Kristianstad.
+  Har precis flyttat till Berlin efter några år i Paris, kommer ursprungligen från Kristianstad.
 
-Har en gammal kandidatexamen i Digital Design i bagaget. Eftersom jag aldrig riktigt klurat ut vad jag vill bli när jag blir stor och dessutom tycker om att prova på saker, 
-så har jag läst kurser i bland annat danska, pedagogik och data analytics (som innehöll grunderna i R och SQL).
+  </div>
+  </div>
 
-## Intressen
+  <div class="col-flex-content">
+  </div>
+</div>
 
-- Dricker en hel del kaffe och lyssnar på en himla massa musik.
-- Har en svaghet för lökiga 80-talsfilmer.
-- Tycker om att resa och att klura ut saker.
-- Förutom intresset för teknik så är jag även förtjust i pennor och diverse analogt pyssel. 
-
-<blockquote class="quote">
+<blockquote class="quote center">
   <p>A learning experience is one of those things that says, 'You know that thing you just did? Don't do that.'</p>
   <footer>
     <cite>— Douglas Adams, <i>The Salmon of Doubt</i></cite>
   </footer>
 </blockquote>
 
-<picture>
-  <source media="(min-width: 768px)" srcset="image/botanischer_garten.jpg?h=768&w=1024">
-    <img src="image/botanischer_garten.jpg?h=450&w=850&crop-to-fit" alt="Botanischer Garten, Berlin">
-</picture>
+<div class="row">
+  <div class="col-flex-content">
+  <div markdown="1">
+  ## Bakgrund
 
-*Botaniska trädgården i Berlin, eftersom sådant här är roligare att ta bilder på än mig själv*
+Har en gammal kandidatexamen i Digital Design i bagaget. 
 
+Eftersom jag aldrig riktigt klurat ut vad jag vill bli när jag blir stor och dessutom tycker om att prova på saker,
+så har jag läst kurser i bland annat danska, pedagogik och data analytics (som innehöll grunderna i R och SQL).
+  </div>
+  </div>
+
+  <div class="col-flex-content">
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-flex-content">
+    <div markdown="1">
+  ## Intressen
+
+- Dricker en hel del kaffe och lyssnar på en himla massa musik
+- Har en svaghet för lökiga 80-talsfilmer
+- Tycker om att resa
+- Förutom intresset för teknik så är jag även förtjust i pennor och diverse analogt pyssel
+
+  </div>
+  </div>
+
+  <div class="col-flex-content">
+      <a href="%assets_url%/img/botanischer_garten.jpg" target="_blank">
+      <picture>
+      <source media="(min-width: 768px)" srcset="image/botanischer_garten.jpg?h=250&w550crop-to-fit&area=0,0,30,5">
+      <img src="image/botanischer_garten.jpg?h=250&w=550&crop-to-fit&area=5,0,30,25" alt="Botanischer Garten, Berlin">
+      </picture>
+    </a>
+  <p class="italic">Botanischer Garten, Berlin</p>
+  </div>
+
+</div>

@@ -1,5 +1,5 @@
 ---
-Logo: image/logo_transparent-bg.png
+Logo: image/logo.png
 Tagline: min portfolio till kursen "Teknisk webbdesign och användbarhet" vid BTH
 Social:
     - title: Länk till sidans github repo.
