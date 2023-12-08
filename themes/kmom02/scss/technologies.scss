@@ -29,13 +29,13 @@
     border-right: 1px solid $complementary;
 }
 
-.two-col-content {
+.two-col-content,
+.col-flex-content-span {
     flex: 2;
     padding: 1em;
 }
 
 .box {
-    /*border: 1px solid $color-gray-mid;*/
     padding: 1em;
     border-radius: 0.3em;
     text-align: center;

@@ -29,6 +29,7 @@ img, embed, object, video {
 img {
     margin-top: 1em;
     filter: $img-filter;
+    border-radius: 0.3em;
 }
 
 img .center { 

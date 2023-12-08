@@ -7,7 +7,6 @@ body {
 
 .main {
     flex: 1 0 auto;
-    color: $text;
 }
 
 .header, .footer {
@@ -50,25 +49,27 @@ body {
 
 .main {
     background-color: $background-secondary;
+    color: $text;
 }
 
+/*
 .content-main {
     max-width: 85em;
     min-height: 30vw;
     padding: 0.5em;
     margin: 0 auto;
 }
-
-.content-main a {
+*/
+.main a {
     color: $text;
     font-weight: bold;
 }
 
-.content-main a:visited {
+.main a:visited {
     color: $text;
 }
 
-.content-main a:hover {
+.main a:hover {
     color: $link-hover;
 }
 
