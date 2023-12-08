@@ -6853,6 +6853,11 @@ body {
   font-size: 1.1rem;
 }
 
+.noise {
+  -webkit-mask-image: url("../assets/img/noise.png");
+  mask-image: url("../assets/img/noise.png");
+}
+
 .grid {
   display: grid;
   gap: 1em 1em;

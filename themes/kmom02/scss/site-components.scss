@@ -12,6 +12,8 @@ body {
 
 .header, .footer {
     flex: 0 0 auto;
+    background-image: $background-noisy;
+    background-repeat: repeat;
 }
 
 /* HEADER */
@@ -29,7 +31,7 @@ body {
 /* TITLE */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 1em 3em 3em 0;
 }
 
 .title * {
