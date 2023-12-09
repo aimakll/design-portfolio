@@ -5,17 +5,19 @@
 
 .row {
     display: flex;
+    padding: 0.8rem 0;
 }
 
 .col-flex-content {
     flex: 1;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
 }
 
 .flex-title {
     background: $background-secondary;
 }
 
-.flex-span {
+.flex-span,
+.flex-span img {
     flex: 2;
 }

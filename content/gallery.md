@@ -103,8 +103,7 @@ Template: reports
 # Video
 
 <div class="embed-container">
-  <iframe src="https://www.youtube.com/embed/UO2dh0gibH8?si=VmideRG6JC-iAXwO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-  </iframe>
+  <iframe src="https://www.youtube.com/embed/jEJ8PoQRz_8?si=741n8KrsjjsHkzRr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 # Källor

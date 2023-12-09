@@ -26,7 +26,7 @@ p .align-center {
     font-style: italic;
 }
 
-@mixin header-styles($font-size, $margin-bottom, $margin-top: null, $font-weight: bold, $font-style: normal) {
+@mixin header-styles($font-size, $margin-bottom, $margin-top: 0.5em, $font-weight: null, $font-style: normal) {
     margin-bottom: $margin-bottom;
     line-height: 2.5rem;
     font-weight: $font-weight;
@@ -44,24 +44,20 @@ p .align-center {
     }
 }
 
-.main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
-    @include header-styles(null, null, 0.5em);
-}
-
 h1 {
-    @include header-styles(2rem, 0.6em);
+    @include header-styles(2.625rem, 0.3rem, 0.67rem, 700, null);
 }
 
 h2 {
-    @include header-styles(1.7rem, 0.6em, null, null, null);
+    @include header-styles(1.875rem, null, null, 600, null);
 }
 
 h3 {
-    @include header-styles(1.4rem, null, null, null, null);
+    @include header-styles(1.375rem, null, null, 600, null);
 }
 
 h4 {
-    @include header-styles(1.1rem, null, null, null, null);
+    @include header-styles(1.125rem, null, null, 600, null);
 }
 
 h5, h6 {
@@ -70,4 +66,12 @@ h5, h6 {
 
 h6 {
     @include header-styles(1rem, null, null, normal, italic);
+}
+
+.main h2::after {
+    display: block;
+    content: "";
+    max-width: 25rem;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(81,40,99,0.65) 0%, rgba(81,40,99,0.5) 35%, rgba(182,115,176,0.2) 100%);
 }

@@ -22,7 +22,30 @@ Möjligen kan jag även identifiera något specifikt på Francois sida som gör 
 
 ## Metod
 
-Jag har tittat på sidorna efter de designprinciper samt -element som finns beskrivna i artikeln
+Jag har analyserat sidorna efter följande designprinciper samt -element:
+
+- linjer (line)
+- skala (scale)
+- färg (colour)
+- repetition (repetition)
+- negativt utrymme / whitespace (negative space)
+- symmetri (symmetry)
+- transparens (transparency)
+- textur (texture)
+- balans (balance)
+- hierarki (hierarchy)
+- kontrast (contrast)
+- inramning (framing)
+- grid / rutnät (grid)
+- slumpmässighet (randomness)
+- riktning (direction)
+- regler (rules)
+- rörelse (movement)
+- djup (depth)
+- typografi (typography)
+- sammansättning (composition)
+
+från artikeln
 [Design Elements and Principles - Tips and Inspiration By Canva](https://www.canva.com/learn/design-elements-principles/).
 
 Eftersom jag ibland upplever det lite överväldigande att bryta ner och analysera design, kommer jag även att ha Steve Krugs "First Law of Usability" nämligen "Don't Make me Think!" [1] i bakhuvudet. Att börja med att konstatera att jag tänker på ett ställe där jag inte borde behöva tänka är en god hjälp för mig att sedan gå vidare - _varför_ tänker jag här, vad är det som inte stämmer?
@@ -127,7 +150,7 @@ Det är lätt att navigera runt på sidan och den visar det som förväntas. Des
 
 #### Designprinciper och designelement
 
-Bilderna är det viktigaste och de är större jämfört med andra element. Rubriker är betydligt större än brödtexten och genom att använda olika *skalor* på dessa element tydliggörs *hierarkin* på sidan. Lu använder horisontella *linjer* som hjälp för att ruta in projekten så de upplevs som separerade sektioner istället för helt fristående. Hon har även placerat det *innehåll som hör ihop* på ett sätt så att även om linjen inte funnits där, hade det synts tydligt att detta innehåll hör ihop med vartannat. Detta skapar även en *rytm* på sidan, och med det *rörelse*.
+Bilderna är det viktigaste och de är större jämfört med andra element. Rubriker är betydligt större än brödtexten och genom att använda olika *skalor* på dessa element tydliggörs *hierarkin* på sidan. Lu använder horisontella *linjer* som hjälp för att ruta in projekten så de upplevs som separerade sektioner istället för helt fristående. Hon har även placerat det innehåll som hör ihop på ett sätt så att även om linjen inte funnits där, så är hierarkin tydlig. Det är lätt att se att detta innehåll hör ihop med vartannat. Detta skapar även en *rytm* på sidan, och med det *rörelse*.
 Hon använder sig av bildernas *färg* istället för att ha för mycket färgade element, huvudsakligen används lila till titlar (men även animerade gradienter syns på vissa ställen), den mörka sidan konkurrerar inte med bilderna oavsett vilken typ av projekt det handlar om. 
 
 #### Samma principer för hela webbplatsen?
@@ -158,20 +181,24 @@ Min portfoliosida har en minimalistisk och ren design som utnyttjar whitespace f
 
 Jag har valt att använda samma färg som bakgrund till header och footer på alla sidor, vilket skapar en enhetlig och konsekvent design. Även om det är olika färger som används för det mörka och det ljusa temat är det enhetligt och passar in med sidan i övrigt. Dessutom har jag använt den lila färgen från header och footer (ljusa temat) till detaljer som citattecken, <code>border</code> och andra linjer samt länkfärg för att skapa intresse och variation.
 
-Sidan använder en platt design utan några skuggor, texturer eller effekter.
+Sidan använder en platt design utan några skuggor, texturer eller andra effekter.
 
 ### Vad uppdaterar jag min sida med?
 
-För att få lite mer rörelse och en sida som inte är helt platt, kommer jag att lägga till textur på min sida.
+För att få lite mer rörelse och en sida som inte är helt platt, kommer jag att lägga till **textur** på min sida.
 Detta gör jag i min header och footer, både i det mörka och ljusa temat.
-Texturbilderna är skapade av mig. 
+Texturbilderna är skapade av mig.
 
-Samtliga bilder har fått rundade hörn för ett mjukare intryck. 
-Logotypen har justerats på höjden och header har uppdaterad top padding för att få en mer linjär känsla (logo + tagline radar upp sig bättre med navigationen nu)
+Lagt till **linjer** och förbättrat **typografi** för förbättrad visuell hierarki:
+- Logotypen har minskats på höjden och header har minskad top padding för att få en mer linjär känsla (logo + tagline radar upp sig bättre med navigationen nu)
+- Rubriker har justerats
+    - Storlek samt tjocklek har justerats för tydligare skillnad mellan dem, framförallt H1-H3
+    - H2 har linjer med gradienter undertill
 
-Jag kommer också att använda flexbox mer på startsidan, för att få lite mer organiserad kolumnkänsla.
-Viss omorganisation kommer också att ske för att frömja skumläsning, kommer att flytta runt text och bilder för att få ett (förhoppningsvis) trevligare flöde.
+- Startsidan har omarbetats med flexbox för att vara mer konsekvent med kolumner
+    - omorganisering har skett med text och bild för att främja skumläsning och (förhoppningsvis) få ett trevligare flöde
 
+Samtliga bilder har fått rundade hörn för ett mjukare intryck och för att spegla de rundade boxarna på analys- samt teknologisidan.
 
 ## Referenser
 
