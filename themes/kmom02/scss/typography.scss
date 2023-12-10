@@ -72,6 +72,6 @@ h6 {
     display: block;
     content: "";
     max-width: 25rem;
-    height: 2px;
-    background: linear-gradient(90deg, rgba(81,40,99,0.65) 0%, rgba(81,40,99,0.5) 35%, rgba(182,115,176,0.2) 100%);
+    height: 1px;
+    background: $linear-gradient;
 }

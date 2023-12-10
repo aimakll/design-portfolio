@@ -28,10 +28,11 @@ $img-filter: grayscale(0%);
 $img-noisy-purple: url(../../../assets/img/noisy-bg-purple.png);
 $background-noisy: $img-noisy-purple;
 
+$linear-gradient: linear-gradient(90deg, rgba(81,40,99,0.65) 0%, rgba(81,40,99,0.5) 35%, rgba(182,115,176,0.2) 100%);
 
 /* REFERENCES */
 
-$color-gray-50: #f7f7ff; /* ok text lila o svart*/
+$color-gray-50: #f7f7ff;
 $color-gray-100: #efeff8;
 $color-gray-200: #e5e5ed;
 $color-gray-300: #d4d3dc;
