@@ -163,12 +163,12 @@ Som användare förväntar jag mig att vissa komponenter ska finnas på en sida.
 Det finns många sätt att arrangera dessa komponenter på men det är inte alla som fungerar, så några olika varianter har kommit att bli en slags standard i webbdesign eftersom de används på majoriteten av de sidor som finns [3, s.8]. 
 Samtliga sidor jag tittat på har navigation och innehåll utplacerat på logiska sätt och de är medvetna om den visuella hierarkin och hur de ska använda färg (sparsamt) och minimalt med extra dekorationer för att istället ha fokus på bilderna. Jag tänker mig även att samtliga tre är bekanta med designprinciper och vad som bör finnas med på en webbplats för att den ska fungera.
 
-Att designa sidor med det naturliga flödet i åtanke, att det inte finns några visuella hinder för att läsa igenom en sida, är ett av de vanligaste sätten att få en enhetlig layout [3, s. 25]. Sidornas komposition använder alla någon form av den klassiska vertikala linjen som guide, vilka samtliga stämmer väl överens med några av de vanligaste läsmönster som Nielsen Norman Group identifierat [4]. Jag kommer på mig själv med både zick-zack och flipperspels-skanna sidorna (högst ovetenskaplig observation dock!) - återigen är fokus på bilderna ett bra val, jag läser inte igenom sidor utan skummar istället igenom de för att uppnå mitt mål med besöket på sidan [5].
+Att designa sidor med det naturliga flödet i åtanke, att det inte finns några visuella hinder för att läsa igenom en sida, är ett av de vanligaste sätten att få en enhetlig layout [3, s. 25]. Sidornas komposition använder alla någon form av den klassiska vertikala linjen som guide, vilka samtliga stämmer väl överens med några av de vanligaste läsmönster som Nielsen Norman Group identifierat [4]. Jag kommer på mig själv med att både sicksack- och flipperspels-skanna sidorna (högst ovetenskaplig observation dock!) - återigen är fokus på bilderna ett bra val, jag läser inte igenom sidor utan skummar istället igenom de för att uppnå mitt mål med besöket på sidan [5].
 
 Alla tre använder sig av repetition på sidorna. Om jag är på exempelvis någons "about"-sida ser jag tydligt att jag är kvar på samma webbplats eftersom det finns tillräckligt med visuella element repeterade från övriga sidor även om sidans komposition ibland skiljer sig något från förstasidan.
 
-Sidan som sticker ut av de tre är Francois sida. Efter att ha analyserat sidan har jag kommit fram till att den främsta anledningen att jag blir distraherad är den assymetriska (o)balansen.
-Jag är lite osäker på vad det är Francois eftersträvar, om det är medveten assymetri [3, s. 18], att avvika från "reglerna" eller något annat. Att bryta symmetrin på en sida kan vara ett effektivt sätt att skapa liv och rörelse med kontrasten det ger [3, ss. 18-19] men det används inte riktigt på ett effektivt sätt. Att det används på flera ställen (exempelvis förstasidan och i menyn) gör att det snarare upplevs som ett misstag.
+Sidan som sticker ut av de tre är Francois sida. Efter att ha analyserat sidan har jag kommit fram till att den främsta anledningen att jag blir distraherad är den asymmetriska (o)balansen.
+Jag är lite osäker på vad det är Francois eftersträvar, om det är medveten asymmetri [3, s. 18], att avvika från "reglerna" eller något annat. Att bryta symmetrin på en sida kan vara ett effektivt sätt att skapa liv och rörelse med kontrasten det ger [3, ss. 18-19] men det används inte riktigt på ett effektivt sätt. Att det används på flera ställen (exempelvis förstasidan och i menyn) gör att det snarare upplevs som ett misstag.
 Möjligen är det typsnittet som ställer till det. I tidigare kursmoment funderade jag över om de sans-serifa typsnitt han valt verkligen var optimala eftersom de var så pass lika varandra. Hade han valt ett kontrasterande typsnitt (Lu har ett typsnitt som skapar bra kontrast mot resterande raka, enkla komposition på ett effektivt sätt) så hade det eventuellt kunnat kännas som rätt sorts "designat kaos".
 
 Det var inte tydligt för mig att Sara och Lu använde Wordpress och samma tema förrän jag i tidigare kursmoment tittade på källkoden. Trots att de använder samma bas har de gjort dem personliga. I detta fall är det en princip som märks tydligt - deras olika syn på whitespace. Sara har en luftig och ljus sida, medan Lu är betydligt mer sparsam med tomma områden runt sidornas innehåll vilket ger en mörkare sida och klaustrofobisk upplevelse.
@@ -177,11 +177,19 @@ Avslutningsvis så tycker jag att alla tre sidor generellt använder sig utav de
 
 ## Analys av min portfolio
 
+Sidan upplevs som lättläst och utan distraherande element. Den uppfyller syftet med att visa upp och prova på de olika tekniker som avhandlats i kursmomenten.
+
+#### Designprinciper och designelement
+
 Min portfoliosida har en minimalistisk och ren design som utnyttjar whitespace för att skapa en luftig känsla och fokus på innehållet. Jag använder hierarki för att strukturera innehållet och framhäva viktiga delar, till exempel med hjälp av tydliga rubriker, underrubriker och citat.
 
 Jag har valt att använda samma färg som bakgrund till header och footer på alla sidor, vilket skapar en enhetlig och konsekvent design. Även om det är olika färger som används för det mörka och det ljusa temat är det enhetligt och passar in med sidan i övrigt. Dessutom har jag använt den lila färgen från header och footer (ljusa temat) till detaljer som citattecken, <code>border</code> och andra linjer samt länkfärg för att skapa intresse och variation.
 
 Sidan använder en platt design utan några skuggor, texturer eller andra effekter.
+
+#### Samma principer för hela webbplatsen?
+
+Det som skiljer sig åt mellan sidorna är användande av grid, flexbox eller inget alls. I övrigt är det en konsekvent design där färg, typografi och sammansättning upprepas.
 
 ### Vad uppdaterar jag min sida med?
 
